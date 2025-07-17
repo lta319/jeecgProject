@@ -1,0 +1,254 @@
+2025-07-17 08:39:15.597 [background-preinit] INFO  org.hibernate.validator.internal.util.Version:21 - HV000001: Hibernate Validator 6.2.5.Final
+2025-07-17 08:39:15.652 [main] INFO  org.jeecg.JeecgSystemApplication:55 - Starting JeecgSystemApplication using Java 18.0.2.1 on AnKou with PID 8252 (E:\work\tools\git\jeecg-boot\jeecg-module-system\jeecg-system-start\target\classes started by lll in E:\work\tools\git\jeecg-boot)
+2025-07-17 08:39:15.653 [main] INFO  org.jeecg.JeecgSystemApplication:638 - The following 1 profile is active: "dev"
+2025-07-17 08:39:20.857 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:262 - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-07-17 08:39:20.862 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-07-17 08:39:21.320 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 430 ms. Found 0 Redis repository interfaces.
+2025-07-17 08:39:21.635 [main] INFO  o.j.minidao.auto.MinidaoAutoConfiguration:23 -  ******************* init miniDao config [ begin ] *********************** 
+2025-07-17 08:39:21.636 [main] INFO  o.j.minidao.auto.MinidaoAutoConfiguration:25 -  ------ minidao.base-package ------- org.jeecg.modules.jmreport.*,org.jeecg.modules.drag.*
+2025-07-17 08:39:21.638 [main] INFO  o.j.minidao.auto.MinidaoAutoConfiguration:42 -  *******************  init miniDao config  [ end ] *********************** 
+2025-07-17 08:39:23.081 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportCategoryDao }
+2025-07-17 08:39:23.082 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDao }
+2025-07-17 08:39:23.082 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDataSourceDao }
+2025-07-17 08:39:23.082 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDbDao }
+2025-07-17 08:39:23.082 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDbFieldDao }
+2025-07-17 08:39:23.083 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDbParamDao }
+2025-07-17 08:39:23.083 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDictDao }
+2025-07-17 08:39:23.084 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDictItemDao }
+2025-07-17 08:39:23.084 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportExportJobDao }
+2025-07-17 08:39:23.084 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportExportLogDao }
+2025-07-17 08:39:23.084 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportLinkDao }
+2025-07-17 08:39:23.084 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportMapDao }
+2025-07-17 08:39:23.084 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportShareDao }
+2025-07-17 08:39:23.086 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.drag.dao.JimuDragCategoryDao }
+2025-07-17 08:39:23.087 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.drag.dao.JimuDragMapDao }
+2025-07-17 08:39:23.087 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.drag.dao.JimuReportIconLibDao }
+2025-07-17 08:39:23.087 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.drag.dao.OnlDragCompDao }
+2025-07-17 08:39:23.088 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.drag.dao.OnlDragDatasetHeadDao }
+2025-07-17 08:39:23.088 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.drag.dao.OnlDragDatasetItemDao }
+2025-07-17 08:39:23.088 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.drag.dao.OnlDragDatasetParamDao }
+2025-07-17 08:39:23.088 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.drag.dao.OnlDragDataSourceDao }
+2025-07-17 08:39:23.088 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.drag.dao.OnlDragPageCompDao }
+2025-07-17 08:39:23.088 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.drag.dao.OnlDragPageDao }
+2025-07-17 08:39:23.089 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.drag.dao.OnlDragShareDao }
+2025-07-17 08:39:23.092 [main] INFO  o.s.c.annotation.ConfigurationClassPostProcessor:426 - Cannot enhance @Configuration bean definition 'com.yomahub.liteflow.springboot.config.LiteflowMainAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2025-07-17 08:39:23.852 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 08:39:23.860 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 08:39:23.894 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'org.springframework.boot.actuate.autoconfigure.metrics.redis.LettuceMetricsAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.redis.LettuceMetricsAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 08:39:23.896 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusMetricsExportAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusMetricsExportAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 08:39:23.904 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'management.metrics.export.prometheus-org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusProperties' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 08:39:23.908 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'prometheusConfig' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusPropertiesConfigAdapter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 08:39:23.914 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'collectorRegistry' of type [io.prometheus.client.CollectorRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 08:39:23.921 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 08:39:23.922 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'micrometerClock' of type [io.micrometer.core.instrument.Clock$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 08:39:23.978 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'prometheusMeterRegistry' of type [io.micrometer.prometheus.PrometheusMeterRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 08:39:23.981 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'micrometerOptions' of type [io.lettuce.core.metrics.MicrometerOptions] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 08:39:23.982 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'lettuceMetrics' of type [org.springframework.boot.actuate.autoconfigure.metrics.redis.LettuceMetricsAutoConfiguration$$Lambda$662/0x00000008012c59a0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 08:39:24.352 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 08:39:24.564 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 08:39:24.593 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jeecgBaseConfig' of type [org.jeecg.config.JeecgBaseConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 08:39:24.614 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'shiroConfig' of type [org.jeecg.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$b8715571] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 08:39:26.088 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 08:39:26.202 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAopConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAopConfiguration$$EnhancerBySpringCGLIB$$daa6c4cc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 08:39:26.345 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 08:39:26.567 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'shiroRealm' of type [org.jeecg.config.shiro.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 08:39:26.767 [main] INFO  org.jeecg.config.shiro.ShiroConfig:289 - ===============(1)创建缓存管理器RedisCacheManager
+2025-07-17 08:39:26.775 [main] INFO  org.jeecg.config.shiro.ShiroConfig:310 - ===============(2)创建RedisManager,连接Redis..
+2025-07-17 08:39:26.790 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'redisManager' of type [org.crazycake.shiro.RedisManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 08:39:26.811 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 08:39:26.873 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 08:39:26.943 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'com.yomahub.liteflow.springboot.config.LiteflowPropertyAutoConfiguration' of type [com.yomahub.liteflow.springboot.config.LiteflowPropertyAutoConfiguration$$EnhancerBySpringCGLIB$$1fa6e5f4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 08:39:26.968 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'liteflow-com.yomahub.liteflow.springboot.LiteflowProperty' of type [com.yomahub.liteflow.springboot.LiteflowProperty] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 08:39:26.988 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'liteflow.monitor-com.yomahub.liteflow.springboot.LiteflowMonitorProperty' of type [com.yomahub.liteflow.springboot.LiteflowMonitorProperty] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 08:39:27.000 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'liteflowConfig' of type [com.yomahub.liteflow.property.LiteflowConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 08:39:27.015 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'com.yomahub.liteflow.spi.spring.SpringAware' of type [com.yomahub.liteflow.spi.spring.SpringAware] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 08:39:27.053 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration' of type [org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$6c4deb28] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 08:39:27.068 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'eventBus' of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 08:39:28.059 [main] INFO  io.undertow.servlet:389 - Initializing Spring embedded WebApplicationContext
+2025-07-17 08:39:28.060 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:292 - Root WebApplicationContext: initialization completed in 11952 ms
+2025-07-17 08:39:29.780 [main] INFO  com.alibaba.druid.pool.DruidDataSource:673 - {dataSource-1,master} inited
+2025-07-17 08:39:29.786 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:154 - dynamic-datasource - add a datasource named [master] success
+2025-07-17 08:39:29.786 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:237 - dynamic-datasource initial loaded [1] datasource,primary datasource named [master]
+2025-07-17 08:39:29.920 [main] DEBUG org.flywaydb.core.internal.util.FeatureDetector:40 - Scanning for classpath resources at 'classpath:db/callback' ...
+2025-07-17 08:39:29.921 [main] DEBUG org.flywaydb.core.internal.util.FeatureDetector:40 - Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@78308db1 ...
+2025-07-17 08:39:29.921 [main] DEBUG org.flywaydb.core.internal.util.FeatureDetector:40 - Unable to resolve location classpath:db/callback.
+2025-07-17 08:39:29.921 [main] DEBUG org.flywaydb.core.internal.util.FeatureDetector:40 - AWS SDK available: false
+2025-07-17 08:39:29.922 [main] DEBUG org.flywaydb.core.internal.util.FeatureDetector:40 - Google Cloud Storage available: false
+2025-07-17 08:39:29.922 [main] DEBUG o.f.c.internal.scanner.classpath.ClassPathScanner:40 - Scanning for classpath resources at 'classpath:flyway/sql/mysql' ...
+2025-07-17 08:39:29.923 [main] DEBUG o.f.c.internal.scanner.classpath.ClassPathScanner:40 - Determining location urls for classpath:flyway/sql/mysql using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@78308db1 ...
+2025-07-17 08:39:29.925 [main] DEBUG o.f.c.internal.scanner.classpath.ClassPathScanner:40 - Scanning URL: file:/E:/work/tools/git/jeecg-boot/jeecg-module-system/jeecg-system-start/target/classes/flyway/sql/mysql
+2025-07-17 08:39:29.926 [main] DEBUG org.flywaydb.core.internal.util.FeatureDetector:40 - JBoss VFS v2 available: false
+2025-07-17 08:39:29.929 [main] DEBUG o.f.c.i.s.c.FileSystemClassPathLocationScanner:40 - Scanning starting at classpath root in filesystem: E:\work\tools\git\jeecg-boot\jeecg-module-system\jeecg-system-start\target\classes\
+2025-07-17 08:39:29.930 [main] DEBUG o.f.c.i.s.c.FileSystemClassPathLocationScanner:40 - Scanning for resources in path: E:\work\tools\git\jeecg-boot\jeecg-module-system\jeecg-system-start\target\classes\flyway\sql\mysql (flyway/sql/mysql)
+2025-07-17 08:39:29.931 [main] DEBUG o.f.c.i.s.c.FileSystemClassPathLocationScanner:40 - Scanning for resources in path: E:\work\tools\git\jeecg-boot\jeecg-module-system\jeecg-system-start\target\classes\flyway\sql\mysql\backup (flyway/sql/mysql)
+2025-07-17 08:39:29.934 [main] DEBUG o.f.c.internal.scanner.classpath.ClassPathScanner:40 - Found resource: flyway/sql/mysql/README.md
+2025-07-17 08:39:29.935 [main] DEBUG o.f.c.internal.scanner.classpath.ClassPathScanner:40 - Found resource: flyway/sql/mysql/V3.8.0_0__clear_flyway_sql.md
+2025-07-17 08:39:29.935 [main] DEBUG o.f.c.internal.scanner.classpath.ClassPathScanner:40 - Found resource: flyway/sql/mysql/V3.8.0_1__airag_add_menu.sql
+2025-07-17 08:39:29.936 [main] DEBUG o.f.c.internal.scanner.classpath.ClassPathScanner:40 - Found resource: flyway/sql/mysql/V3.8.0_2__airag_init_db.sql
+2025-07-17 08:39:29.937 [main] DEBUG o.f.c.internal.scanner.classpath.ClassPathScanner:40 - Found resource: flyway/sql/mysql/V3.8.1_1__all_upgrade.sql
+2025-07-17 08:39:29.938 [main] DEBUG o.f.c.internal.scanner.classpath.ClassPathScanner:40 - Found resource: flyway/sql/mysql/V3.8.1_2__openapi.sql
+2025-07-17 08:39:29.938 [main] DEBUG o.f.c.internal.scanner.classpath.ClassPathScanner:40 - Found resource: flyway/sql/mysql/backup/V20250403.zip
+2025-07-17 08:39:29.938 [main] DEBUG o.f.c.internal.scanner.classpath.ClassPathScanner:40 - Scanning for classes at classpath:flyway/sql/mysql
+2025-07-17 08:39:30.464 [main] INFO  org.flywaydb.core.internal.license.VersionPrinter:44 - Flyway Community Edition 7.15.0 by Redgate
+2025-07-17 08:39:30.467 [main] INFO  o.f.core.internal.database.base.BaseDatabaseType:44 - Database: jdbc:mysql://127.0.0.1:3306/jeecg-boot (MySQL 8.3)
+2025-07-17 08:39:30.467 [main] DEBUG o.f.core.internal.database.base.BaseDatabaseType:40 - Driver  : MySQL Connector/J mysql-connector-java-8.0.27 (Revision: e920b979015ae7117d60d72bcc8f077a839cd791)
+2025-07-17 08:39:30.598 [main] DEBUG org.flywaydb.core.Flyway:40 - DDL Transactions Supported: false
+2025-07-17 08:39:30.603 [main] DEBUG o.f.c.internal.schemahistory.SchemaHistoryFactory:40 - Schemas: 
+2025-07-17 08:39:30.604 [main] DEBUG o.f.c.internal.schemahistory.SchemaHistoryFactory:40 - Default schema: null
+2025-07-17 08:39:30.638 [main] WARN  org.flywaydb.core.internal.database.base.Database:48 - Flyway upgrade recommended: MySQL 8.3 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.0.
+2025-07-17 08:39:30.641 [main] DEBUG o.f.c.internal.callback.SqlScriptCallbackFactory:40 - Scanning for SQL callbacks ...
+2025-07-17 08:39:30.641 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner:40 - Filtering out resource: flyway/sql/mysql/V3.8.0_0__clear_flyway_sql.md (filename: V3.8.0_0__clear_flyway_sql.md)
+2025-07-17 08:39:30.642 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner:40 - Filtering out resource: flyway/sql/mysql/backup/V20250403.zip (filename: V20250403.zip)
+2025-07-17 08:39:30.642 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner:40 - Filtering out resource: flyway/sql/mysql/README.md (filename: README.md)
+2025-07-17 08:39:30.706 [main] DEBUG org.flywaydb.core.internal.command.DbValidate:40 - Validating migrations ...
+2025-07-17 08:39:30.716 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner:40 - Filtering out resource: flyway/sql/mysql/V3.8.0_0__clear_flyway_sql.md (filename: V3.8.0_0__clear_flyway_sql.md)
+2025-07-17 08:39:30.717 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner:40 - Filtering out resource: flyway/sql/mysql/backup/V20250403.zip (filename: V20250403.zip)
+2025-07-17 08:39:30.717 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner:40 - Filtering out resource: flyway/sql/mysql/README.md (filename: README.md)
+2025-07-17 08:39:30.782 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner:40 - Filtering out resource: flyway/sql/mysql/V3.8.0_0__clear_flyway_sql.md (filename: V3.8.0_0__clear_flyway_sql.md)
+2025-07-17 08:39:30.782 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner:40 - Filtering out resource: flyway/sql/mysql/V3.8.0_1__airag_add_menu.sql (filename: V3.8.0_1__airag_add_menu.sql)
+2025-07-17 08:39:30.782 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner:40 - Filtering out resource: flyway/sql/mysql/backup/V20250403.zip (filename: V20250403.zip)
+2025-07-17 08:39:30.782 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner:40 - Filtering out resource: flyway/sql/mysql/V3.8.1_1__all_upgrade.sql (filename: V3.8.1_1__all_upgrade.sql)
+2025-07-17 08:39:30.783 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner:40 - Filtering out resource: flyway/sql/mysql/V3.8.0_2__airag_init_db.sql (filename: V3.8.0_2__airag_init_db.sql)
+2025-07-17 08:39:30.783 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner:40 - Filtering out resource: flyway/sql/mysql/README.md (filename: README.md)
+2025-07-17 08:39:30.783 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner:40 - Filtering out resource: flyway/sql/mysql/V3.8.1_2__openapi.sql (filename: V3.8.1_2__openapi.sql)
+2025-07-17 08:39:30.890 [main] INFO  org.flywaydb.core.internal.command.DbValidate:44 - Successfully validated 5 migrations (execution time 00:00.180s)
+2025-07-17 08:39:30.918 [main] INFO  org.flywaydb.core.internal.command.DbMigrate:44 - Current version of schema `jeecg-boot`: 3.8.1.2
+2025-07-17 08:39:30.921 [main] INFO  org.flywaydb.core.internal.command.DbMigrate:44 - Schema `jeecg-boot` is up to date. No migration necessary.
+2025-07-17 08:39:30.928 [main] DEBUG org.flywaydb.core.Flyway:40 - Memory usage: 106 of 150M
+2025-07-17 08:39:30.930 [main] INFO  org.jeecg.config.flyway.FlywayConfig:127 - 【数据库升级】平台集成了MySQL库的Flyway，数据库版本自动升级! 
+2025-07-17 08:39:34.353 [main] INFO  org.jeecg.common.modules.redis.config.RedisConfig:57 -  --- redis config init --- 
+2025-07-17 08:39:38.079 [main] INFO  org.quartz.impl.StdSchedulerFactory:1220 - Using default implementation for ThreadExecutor
+2025-07-17 08:39:38.088 [main] INFO  org.quartz.simpl.SimpleThreadPool:268 - Job execution threads will use class loader of thread: main
+2025-07-17 08:39:38.125 [main] INFO  org.quartz.core.SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-07-17 08:39:38.125 [main] INFO  org.quartz.core.QuartzScheduler:229 - Quartz Scheduler v.2.3.2 created.
+2025-07-17 08:39:38.132 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:672 - Using db table-based data access locking (synchronization).
+2025-07-17 08:39:38.141 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:145 - JobStoreCMT initialized.
+2025-07-17 08:39:38.145 [main] INFO  org.quartz.core.QuartzScheduler:294 - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'MyScheduler' with instanceId 'AnKou1752712778086'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2025-07-17 08:39:38.146 [main] INFO  org.quartz.impl.StdSchedulerFactory:1374 - Quartz scheduler 'MyScheduler' initialized from an externally provided properties instance.
+2025-07-17 08:39:38.147 [main] INFO  org.quartz.impl.StdSchedulerFactory:1378 - Quartz scheduler version: 2.3.2
+2025-07-17 08:39:38.149 [main] INFO  org.quartz.core.QuartzScheduler:2293 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@2852fb2a
+2025-07-17 08:39:41.710 [main] INFO  c.y.l.process.impl.CmpAroundAspectBeanProcess:32 - component aspect implement[nodeProcessAspect] has been found
+2025-07-17 08:39:42.326 [main] INFO  c.y.liteflow.process.impl.DeclWarpBeanProcess:37 - proxy component[classifier] has been found
+2025-07-17 08:39:42.342 [main] INFO  c.y.liteflow.process.impl.DeclWarpBeanProcess:37 - proxy component[end] has been found
+2025-07-17 08:39:42.357 [main] INFO  c.y.liteflow.process.impl.DeclWarpBeanProcess:37 - proxy component[http] has been found
+2025-07-17 08:39:42.370 [main] INFO  c.y.liteflow.process.impl.DeclWarpBeanProcess:37 - proxy component[knowledge] has been found
+2025-07-17 08:39:42.384 [main] INFO  c.y.liteflow.process.impl.DeclWarpBeanProcess:37 - proxy component[llm] has been found
+2025-07-17 08:39:42.394 [main] INFO  c.y.liteflow.process.impl.DeclWarpBeanProcess:37 - proxy component[enhanceJava] has been found
+2025-07-17 08:39:42.404 [main] INFO  c.y.liteflow.process.impl.DeclWarpBeanProcess:37 - proxy component[reply] has been found
+2025-07-17 08:39:42.412 [main] INFO  c.y.liteflow.process.impl.DeclWarpBeanProcess:37 - proxy component[start] has been found
+2025-07-17 08:39:42.421 [main] INFO  c.y.liteflow.process.impl.DeclWarpBeanProcess:37 - proxy component[subflow] has been found
+2025-07-17 08:39:42.430 [main] INFO  c.y.liteflow.process.impl.DeclWarpBeanProcess:37 - proxy component[switch] has been found
+2025-07-17 08:39:44.287 [main] INFO  org.jeecg.modules.drag.config.a.b.a:31 -  --- redis config init --- 
+2025-07-17 08:39:45.974 [main] INFO  o.j.config.shiro.ignore.IgnoreAuthPostProcessor:41 - Init Token ignoreAuthUrls Config [ 集合 ]  ：[/openapi/demo/index, /airag/chat/stop/*, /airag/chat/messages, /airag/chat/conversations, /airag/chat/messages/clear/*, /airag/chat/init, /airag/chat/conversation/*, /airag/chat/send, /airag/chat/upload, /airag/chat/conversation/update/title, /airag/app/queryById, /airag/flow/run, /airag/flow/run/*, /test/jeecgDemo/html]
+2025-07-17 08:39:45.976 [main] INFO  o.j.config.shiro.ignore.IgnoreAuthPostProcessor:49 - Init Token ignoreAuthUrls Config [ 耗时 ] ：5毫秒
+2025-07-17 08:39:46.003 [main] INFO  org.jeecg.config.init.CodeGenerateDbConfig:50 -  Init CodeGenerate Config [ Get Db Config From application.yml ] 
+2025-07-17 08:39:49.613 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:58 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2025-07-17 08:39:49.817 [main] INFO  io.undertow.websockets.jsr:639 - UT026003: Adding annotated server endpoint class org.jeecg.modules.message.websocket.WebSocket for path /websocket/{userId}
+2025-07-17 08:39:49.836 [main] INFO  io.undertow.websockets.jsr:639 - UT026003: Adding annotated server endpoint class org.jeecg.modules.drag.config.websocket.DragChannelWebSocket for path /dragChannelSocket/{token}
+2025-07-17 08:39:49.837 [main] INFO  io.undertow.websockets.jsr:639 - UT026003: Adding annotated server endpoint class org.jeecg.modules.drag.config.websocket.DragWebSocket for path /websocket/drag/{chartId}
+2025-07-17 08:39:49.838 [main] INFO  io.undertow.websockets.jsr:639 - UT026003: Adding annotated server endpoint class org.jeecg.modules.demo.mock.vxe.websocket.VxeSocket for path /vxeSocket/{userId}/{pageId}
+2025-07-17 08:39:49.893 [main] INFO  c.y.liteflow.parser.factory.FlowParserProvider:193 - flow info loaded from class config with el,class=com.yomahub.liteflow.parser.sql.SQLXmlELParser
+2025-07-17 08:39:49.964 [main] INFO  c.yomahub.liteflow.parser.sql.read.AbstractSqlRead:186 - query sql: select id, application_name, chain from airag_flow where status = 'enable' and chain is not null
+2025-07-17 08:39:50.015 [main] INFO  c.y.liteflow.parser.sql.util.LiteFlowJdbcUtil:43 - use dataSourceName[dataSource],has found liteflow config
+2025-07-17 08:39:50.707 [main] INFO  io.undertow:120 - starting server: Undertow - 2.2.28.Final
+2025-07-17 08:39:50.730 [main] INFO  org.xnio:95 - XNIO version 3.8.7.Final
+2025-07-17 08:39:50.748 [main] INFO  org.xnio.nio:58 - XNIO NIO Implementation Version 3.8.7.Final
+2025-07-17 08:39:50.813 [main] INFO  org.jboss.threads:52 - JBoss Threads version 3.1.0.Final
+2025-07-17 08:39:50.907 [main] INFO  o.s.boot.web.embedded.undertow.UndertowWebServer:119 - Undertow started on port(s) 8080 (http) with context path '/jeecg-boot'
+2025-07-17 08:39:52.027 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:734 - Will start Quartz Scheduler [MyScheduler] in 1 seconds
+2025-07-17 08:39:52.063 [main] INFO  org.jeecg.JeecgSystemApplication:61 - Started JeecgSystemApplication in 37.837 seconds (JVM running for 41.597)
+2025-07-17 08:39:52.069 [main] INFO  org.jeecg.config.init.CodeTemplateInitListener:30 -  Init Code Generate Template [ 检测如果是JAR启动，Copy模板到config目录 ] 
+2025-07-17 08:39:52.193 [main] INFO  org.jeecg.config.init.CodeTemplateInitListener:33 -  Init Code Generate Template completed in 124 ms
+2025-07-17 08:39:52.244 [main] INFO  org.jeecg.JeecgSystemApplication:41 - 
+----------------------------------------------------------
+	Application Jeecg-Boot is running! Access URLs:
+	Local: 		http://localhost:8080/jeecg-boot/doc.html
+	External: 	http://192.168.10.199:8080/jeecg-boot/doc.html
+	Swagger文档: 	http://192.168.10.199:8080/jeecg-boot/doc.html
+----------------------------------------------------------
+2025-07-17 08:39:53.029 [Quartz Scheduler [MyScheduler]] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:750 - Starting Quartz Scheduler now, after delay of 1 seconds
+2025-07-17 08:39:53.384 [Quartz Scheduler [MyScheduler]] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:3644 - ClusterManager: detected 1 failed or restarted instances.
+2025-07-17 08:39:53.385 [Quartz Scheduler [MyScheduler]] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:3503 - ClusterManager: Scanning for instance "AnKou1752654488179"'s failed in-progress jobs.
+2025-07-17 08:39:53.412 [Quartz Scheduler [MyScheduler]] INFO  org.quartz.core.QuartzScheduler:547 - Scheduler MyScheduler_$_AnKou1752712778086 started.
+2025-07-17 08:42:44.899 [XNIO-1 task-1] INFO  io.undertow.servlet:389 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-17 08:42:44.933 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2025-07-17 08:42:45.238 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:547 - Completed initialization in 304 ms
+2025-07-17 08:42:47.497 [XNIO-1 task-1] INFO  o.j.c.desensitization.aspect.SensitiveDataAspect:76 - 加密操作，Aspect程序耗时：50ms
+2025-07-17 08:44:18.389 [XNIO-1 task-2] INFO  o.j.m.system.controller.SysAnnouncementController:348 - -----查询近两个月收到的未读通知-----，近2月的第一天：2025-06-01 00:00:00
+2025-07-17 08:44:18.498 [XNIO-1 task-2] INFO  o.j.m.system.controller.SysAnnouncementController:363 - begin 获取用户近2个月的系统公告 (通知)139毫秒
+2025-07-17 08:44:18.521 [XNIO-1 task-2] INFO  o.j.m.system.controller.SysAnnouncementController:371 - end 获取用户2个月的系统公告 (系统消息)164毫秒
+2025-07-17 08:44:18.531 [XNIO-1 task-3] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/head/list
+2025-07-17 08:44:18.532 [XNIO-1 task-3] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/head/list]
+2025-07-17 08:45:06.190 [XNIO-1 task-3] INFO  org.jeecg.modules.drag.b.a:104 -  screenIndex 登录令牌token： eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUyODUwMzk3fQ.-z77SN2l7XoT9pdy129jndsWoJU592OOdAKZR3uk6Ts
+2025-07-17 08:45:06.768 [XNIO-1 task-3] INFO  org.jeecg.modules.drag.b.m:316 - 查询仪表盘信息，仪表盘名字：收视监控平台，ID:1016994412900175872
+2025-07-17 08:45:07.172 [XNIO-1 task-5] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1117 - -------通过数据库读取用户拥有的角色Rules------username： admin,Roles size: 2
+2025-07-17 08:45:21.275 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.b.m:73 - ---------自定义页面列表-------req.getParameter.lowAPPId:
+2025-07-17 08:45:21.275 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.b.m:74 - ---------自定义页面列表-------onlDragPage.getLowAppId:null
+2025-07-17 08:45:21.275 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.b.m:76 - 进入设计器列表，Saas模式:  ,登录Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUyODUwMzk3fQ.-z77SN2l7XoT9pdy129jndsWoJU592OOdAKZR3uk6Ts
+2025-07-17 08:52:53.626 [XNIO-1 task-5] INFO  org.jeecg.modules.drag.b.m:73 - ---------自定义页面列表-------req.getParameter.lowAPPId:
+2025-07-17 08:52:53.637 [XNIO-1 task-5] INFO  org.jeecg.modules.drag.b.m:74 - ---------自定义页面列表-------onlDragPage.getLowAppId:null
+2025-07-17 08:52:53.639 [XNIO-1 task-5] INFO  org.jeecg.modules.drag.b.m:76 - 进入设计器列表，Saas模式:  ,登录Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUyODUwMzk3fQ.-z77SN2l7XoT9pdy129jndsWoJU592OOdAKZR3uk6Ts
+2025-07-17 09:02:46.294 [XNIO-1 task-1] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1131 - -------通过数据库读取用户拥有的角色Rules------useId： e9ca23d68d884d4ebb19d07889727dae,Roles size: 2
+2025-07-17 09:02:46.353 [XNIO-1 task-1] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1162 - -------通过数据库读取用户拥有的权限Perms------userId： e9ca23d68d884d4ebb19d07889727dae,Perms size: 183
+2025-07-17 09:02:46.354 [XNIO-1 task-1] INFO  org.jeecg.config.shiro.ShiroRealm:83 - ===============Shiro权限认证成功==============
+2025-07-17 09:03:08.183 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.b.a:133 -  view 登录令牌token： eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUyODUwMzk3fQ.-z77SN2l7XoT9pdy129jndsWoJU592OOdAKZR3uk6Ts
+2025-07-17 09:07:30.183 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.b.m:73 - ---------自定义页面列表-------req.getParameter.lowAPPId:
+2025-07-17 09:07:30.185 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.b.m:74 - ---------自定义页面列表-------onlDragPage.getLowAppId:null
+2025-07-17 09:07:30.185 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.b.m:76 - 进入设计器列表，Saas模式:  ,登录Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUyODUwMzk3fQ.-z77SN2l7XoT9pdy129jndsWoJU592OOdAKZR3uk6Ts
+2025-07-17 09:07:56.067 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.b.m:73 - ---------自定义页面列表-------req.getParameter.lowAPPId:
+2025-07-17 09:07:56.068 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.b.m:74 - ---------自定义页面列表-------onlDragPage.getLowAppId:null
+2025-07-17 09:07:56.068 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.b.m:76 - 进入设计器列表，Saas模式:  ,登录Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUyODUwMzk3fQ.-z77SN2l7XoT9pdy129jndsWoJU592OOdAKZR3uk6Ts
+2025-07-17 09:07:58.045 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.b.a:104 -  screenIndex 登录令牌token： eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUyODUwMzk3fQ.-z77SN2l7XoT9pdy129jndsWoJU592OOdAKZR3uk6Ts
+2025-07-17 09:07:58.335 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.b.m:316 - 查询仪表盘信息，仪表盘名字：大屏1，ID:1105630554306154496
+2025-07-17 09:07:58.657 [XNIO-1 task-5] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1117 - -------通过数据库读取用户拥有的角色Rules------username： admin,Roles size: 2
+2025-07-17 09:08:45.218 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.b.a:104 -  screenIndex 登录令牌token： eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUyODUwMzk3fQ.-z77SN2l7XoT9pdy129jndsWoJU592OOdAKZR3uk6Ts
+2025-07-17 09:08:45.431 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.b.m:316 - 查询仪表盘信息，仪表盘名字：大屏1，ID:1105630554306154496
+2025-07-17 09:08:45.726 [XNIO-1 task-2] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1117 - -------通过数据库读取用户拥有的角色Rules------username： admin,Roles size: 2
+2025-07-17 09:11:50.139 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.j:151 - 修改仪表盘配置，onlDragPage id:1105630554306154496, updateCount:null
+2025-07-17 09:11:50.166 [XNIO-1 task-2] INFO  o.j.c.modules.redis.writer.JeecgRedisCacheWriter:117 - redis remove key:drag:cache:page::1105630554306154496
+2025-07-17 09:14:26.023 [XNIO-1 task-4] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgreport/api/getColumnsAndData/1256627801873821698
+2025-07-17 09:14:26.023 [XNIO-1 task-4] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgreport/api/getColumnsAndData/1256627801873821698]
+2025-07-17 09:14:26.237 [XNIO-1 task-4] INFO  o.j.c.util.security.AbstractQueryBlackListHandler:66 -   获取sql信息 ：[QueryTable{name='sys_log', alias='sys_log', fields=[count(*), date_format(create_time, '%y-%m-%d')], all=false}] 
+2025-07-17 09:14:26.562 [XNIO-1 task-4] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgreport/api/getColumnsAndData/1256627801873821698
+2025-07-17 09:14:26.562 [XNIO-1 task-4] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgreport/api/getColumnsAndData/1256627801873821698]
+2025-07-17 09:14:26.589 [XNIO-1 task-4] INFO  o.j.c.util.security.AbstractQueryBlackListHandler:66 -   获取sql信息 ：[QueryTable{name='sys_log', alias='sys_log', fields=[count(*), date_format(create_time, '%y-%m-%d')], all=false}] 
+2025-07-17 09:28:12.571 [SpringApplicationShutdownHook] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler MyScheduler_$_AnKou1752712778086 paused.
+2025-07-17 09:28:12.817 [SpringApplicationShutdownHook] INFO  io.undertow:259 - stopping server: Undertow - 2.2.28.Final
+2025-07-17 09:28:12.956 [SpringApplicationShutdownHook] INFO  io.undertow.servlet:389 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2025-07-17 09:28:13.394 [XNIO-1 I/O-3] ERROR org.xnio.listener:94 - XNIO001007: A channel event listener threw an exception
+java.util.concurrent.RejectedExecutionException: XNIO007007: Thread is terminating
+	at org.xnio.nio.WorkerThread.execute(WorkerThread.java:620)
+	at io.undertow.websockets.jsr.UndertowSession.close0(UndertowSession.java:362)
+	at io.undertow.websockets.jsr.UndertowSession.closeInternal(UndertowSession.java:242)
+	at io.undertow.websockets.jsr.UndertowSession$3$1.run(UndertowSession.java:402)
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:411)
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:389)
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92)
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:1085)
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:1004)
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92)
+	at org.xnio.conduits.WriteReadyHandler$ChannelListenerHandler.terminated(WriteReadyHandler.java:70)
+	at org.xnio.nio.NioSocketConduit.writeTerminated(NioSocketConduit.java:204)
+	at org.xnio.nio.NioSocketConduit.terminateWrites(NioSocketConduit.java:193)
+	at org.xnio.nio.NioSocketConduit.truncateWrites(NioSocketConduit.java:198)
+	at io.undertow.conduits.IdleTimeoutConduit.truncateWrites(IdleTimeoutConduit.java:387)
+	at org.xnio.conduits.ConduitStreamSinkChannel.close(ConduitStreamSinkChannel.java:186)
+	at org.xnio.IoUtils.safeClose(IoUtils.java:152)
+	at org.xnio.conduits.WriteReadyHandler$ChannelListenerHandler.forceTermination(WriteReadyHandler.java:57)
+	at org.xnio.nio.NioSocketConduit.forceTermination(NioSocketConduit.java:108)
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:507)
+2025-07-17 09:28:23.270 [SpringApplicationShutdownHook] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:847 - Shutting down Quartz Scheduler
+2025-07-17 09:28:23.272 [SpringApplicationShutdownHook] INFO  org.quartz.core.QuartzScheduler:666 - Scheduler MyScheduler_$_AnKou1752712778086 shutting down.
+2025-07-17 09:28:23.273 [SpringApplicationShutdownHook] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler MyScheduler_$_AnKou1752712778086 paused.
+2025-07-17 09:28:23.277 [SpringApplicationShutdownHook] INFO  org.quartz.core.QuartzScheduler:740 - Scheduler MyScheduler_$_AnKou1752712778086 shutdown complete.
+2025-07-17 09:28:23.336 [SpringApplicationShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:211 - dynamic-datasource start closing ....
+2025-07-17 09:28:23.364 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource:1880 - {dataSource-1} closing ...
+2025-07-17 09:28:23.392 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource:1953 - {dataSource-1} closed
+2025-07-17 09:28:23.393 [SpringApplicationShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:215 - dynamic-datasource all closed success,bye

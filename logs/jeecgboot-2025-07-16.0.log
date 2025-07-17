@@ -180,3 +180,54 @@
 2025-07-16 16:28:19.721 [Quartz Scheduler [MyScheduler]] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:3644 - ClusterManager: detected 1 failed or restarted instances.
 2025-07-16 16:28:19.722 [Quartz Scheduler [MyScheduler]] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:3503 - ClusterManager: Scanning for instance "AnKou1752649047203"'s failed in-progress jobs.
 2025-07-16 16:28:19.762 [Quartz Scheduler [MyScheduler]] INFO  org.quartz.core.QuartzScheduler:547 - Scheduler MyScheduler_$_AnKou1752654488179 started.
+2025-07-16 16:36:13.557 [XNIO-1 task-1] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/3f0b5b854a194ca698f2685cbb33296d
+2025-07-16 16:36:13.557 [XNIO-1 task-3] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/3f0b5b854a194ca698f2685cbb33296d
+2025-07-16 16:36:13.595 [XNIO-1 task-3] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/3f0b5b854a194ca698f2685cbb33296d]
+2025-07-16 16:36:13.595 [XNIO-1 task-1] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/3f0b5b854a194ca698f2685cbb33296d]
+2025-07-16 16:36:13.796 [XNIO-1 task-2] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/3f0b5b854a194ca698f2685cbb33296d
+2025-07-16 16:36:13.797 [XNIO-1 task-2] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/3f0b5b854a194ca698f2685cbb33296d]
+2025-07-16 16:36:15.596 [XNIO-1 task-2] INFO  o.j.m.system.controller.SysAnnouncementController:348 - -----查询近两个月收到的未读通知-----，近2月的第一天：2025-06-01 00:00:00
+2025-07-16 16:36:15.667 [XNIO-1 task-2] INFO  o.j.m.system.controller.SysAnnouncementController:363 - begin 获取用户近2个月的系统公告 (通知)157毫秒
+2025-07-16 16:36:15.676 [XNIO-1 task-2] INFO  o.j.m.system.controller.SysAnnouncementController:371 - end 获取用户2个月的系统公告 (系统消息)167毫秒
+2025-07-16 16:42:43.628 [XNIO-1 task-3] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1117 - -------通过数据库读取用户拥有的角色Rules------username： admin,Roles size: 2
+2025-07-16 16:42:55.013 [XNIO-1 task-3] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/head/list
+2025-07-16 16:42:55.015 [XNIO-1 task-3] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/head/list]
+2025-07-16 16:43:03.274 [XNIO-1 task-4] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1117 - -------通过数据库读取用户拥有的角色Rules------username： admin,Roles size: 2
+2025-07-16 16:43:03.391 [XNIO-1 task-4] INFO  org.jeecg.modules.drag.b.m:73 - ---------自定义页面列表-------req.getParameter.lowAPPId:
+2025-07-16 16:43:03.392 [XNIO-1 task-4] INFO  org.jeecg.modules.drag.b.m:74 - ---------自定义页面列表-------onlDragPage.getLowAppId:null
+2025-07-16 16:43:03.393 [XNIO-1 task-4] INFO  org.jeecg.modules.drag.b.m:76 - 进入设计器列表，Saas模式:  ,登录Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUyODUwMzk3fQ.-z77SN2l7XoT9pdy129jndsWoJU592OOdAKZR3uk6Ts
+2025-07-16 16:43:03.509 [XNIO-1 task-5] INFO  org.jeecg.modules.drag.b.m:73 - ---------自定义页面列表-------req.getParameter.lowAPPId:
+2025-07-16 16:43:03.510 [XNIO-1 task-5] INFO  org.jeecg.modules.drag.b.m:74 - ---------自定义页面列表-------onlDragPage.getLowAppId:null
+2025-07-16 16:43:03.510 [XNIO-1 task-5] INFO  org.jeecg.modules.drag.b.m:76 - 进入设计器列表，Saas模式:  ,登录Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUyODUwMzk3fQ.-z77SN2l7XoT9pdy129jndsWoJU592OOdAKZR3uk6Ts
+2025-07-16 16:43:37.214 [XNIO-1 task-3] INFO  org.jeecg.modules.drag.b.a:104 -  screenIndex 登录令牌token： eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUyODUwMzk3fQ.-z77SN2l7XoT9pdy129jndsWoJU592OOdAKZR3uk6Ts
+2025-07-16 16:43:38.057 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.b.m:316 - 查询仪表盘信息，仪表盘名字：旅游数据分析中心大屏副本8140，ID:1067415011364732928
+2025-07-16 16:43:38.840 [XNIO-1 task-6] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1117 - -------通过数据库读取用户拥有的角色Rules------username： admin,Roles size: 2
+2025-07-16 16:43:54.171 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.b.a:104 -  screenIndex 登录令牌token： eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUyODUwMzk3fQ.-z77SN2l7XoT9pdy129jndsWoJU592OOdAKZR3uk6Ts
+2025-07-16 16:43:54.530 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.b.m:316 - 查询仪表盘信息，仪表盘名字：旅游数据分析中心大屏，ID:1016994272231608320
+2025-07-16 16:43:54.972 [XNIO-1 task-1] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1117 - -------通过数据库读取用户拥有的角色Rules------username： admin,Roles size: 2
+2025-07-16 16:44:55.483 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.b.m:73 - ---------自定义页面列表-------req.getParameter.lowAPPId:
+2025-07-16 16:44:55.483 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.b.m:74 - ---------自定义页面列表-------onlDragPage.getLowAppId:null
+2025-07-16 16:44:55.484 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.b.m:76 - 进入设计器列表，Saas模式:  ,登录Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUyODUwMzk3fQ.-z77SN2l7XoT9pdy129jndsWoJU592OOdAKZR3uk6Ts
+2025-07-16 16:44:58.724 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.b.a:75 -  index 登录令牌token： eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUyODUwMzk3fQ.-z77SN2l7XoT9pdy129jndsWoJU592OOdAKZR3uk6Ts
+2025-07-16 16:44:58.930 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.b.m:316 - 查询仪表盘信息，仪表盘名字：物业消防巡检状态，ID:993809146154418176
+2025-07-16 16:44:59.198 [XNIO-1 task-1] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1117 - -------通过数据库读取用户拥有的角色Rules------username： admin,Roles size: 2
+2025-07-16 16:45:18.165 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.b.m:73 - ---------自定义页面列表-------req.getParameter.lowAPPId:
+2025-07-16 16:45:18.165 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.b.m:74 - ---------自定义页面列表-------onlDragPage.getLowAppId:null
+2025-07-16 16:45:18.166 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.b.m:76 - 进入设计器列表，Saas模式:  ,登录Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUyODUwMzk3fQ.-z77SN2l7XoT9pdy129jndsWoJU592OOdAKZR3uk6Ts
+2025-07-16 16:45:21.190 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.b.m:73 - ---------自定义页面列表-------req.getParameter.lowAPPId:
+2025-07-16 16:45:21.190 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.b.m:74 - ---------自定义页面列表-------onlDragPage.getLowAppId:null
+2025-07-16 16:45:21.191 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.b.m:76 - 进入设计器列表，Saas模式:  ,登录Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUyODUwMzk3fQ.-z77SN2l7XoT9pdy129jndsWoJU592OOdAKZR3uk6Ts
+2025-07-16 16:56:51.074 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.b.m:73 - ---------自定义页面列表-------req.getParameter.lowAPPId:
+2025-07-16 16:56:51.106 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.b.m:74 - ---------自定义页面列表-------onlDragPage.getLowAppId:null
+2025-07-16 16:56:51.108 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.b.m:76 - 进入设计器列表，Saas模式:  ,登录Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUyODUwMzk3fQ.-z77SN2l7XoT9pdy129jndsWoJU592OOdAKZR3uk6Ts
+2025-07-16 17:02:36.368 [SpringApplicationShutdownHook] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler MyScheduler_$_AnKou1752654488179 paused.
+2025-07-16 17:02:36.474 [SpringApplicationShutdownHook] INFO  io.undertow:259 - stopping server: Undertow - 2.2.28.Final
+2025-07-16 17:02:36.588 [SpringApplicationShutdownHook] INFO  io.undertow.servlet:389 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2025-07-16 17:02:36.845 [SpringApplicationShutdownHook] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:847 - Shutting down Quartz Scheduler
+2025-07-16 17:02:36.850 [SpringApplicationShutdownHook] INFO  org.quartz.core.QuartzScheduler:666 - Scheduler MyScheduler_$_AnKou1752654488179 shutting down.
+2025-07-16 17:02:36.851 [SpringApplicationShutdownHook] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler MyScheduler_$_AnKou1752654488179 paused.
+2025-07-16 17:02:36.856 [SpringApplicationShutdownHook] INFO  org.quartz.core.QuartzScheduler:740 - Scheduler MyScheduler_$_AnKou1752654488179 shutdown complete.
+2025-07-16 17:02:36.981 [SpringApplicationShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:211 - dynamic-datasource start closing ....
+2025-07-16 17:02:37.041 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource:1880 - {dataSource-1} closing ...
+2025-07-16 17:02:37.093 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource:1953 - {dataSource-1} closed
+2025-07-16 17:02:37.093 [SpringApplicationShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:215 - dynamic-datasource all closed success,bye
