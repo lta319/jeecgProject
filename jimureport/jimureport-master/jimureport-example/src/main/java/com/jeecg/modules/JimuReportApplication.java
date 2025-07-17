@@ -14,6 +14,10 @@ import org.springframework.core.env.Environment;
 @EnableAutoConfiguration(exclude={MongoAutoConfiguration.class})
 public class JimuReportApplication {
 
+    /**
+     * 启动方法
+     * @param args
+     */
     public static void main(String[] args) {
         ConfigurableApplicationContext application = SpringApplication.run(JimuReportApplication.class, args);
         Environment env = application.getEnvironment();
