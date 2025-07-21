@@ -252,3 +252,881 @@ java.util.concurrent.RejectedExecutionException: XNIO007007: Thread is terminati
 2025-07-17 09:28:23.364 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource:1880 - {dataSource-1} closing ...
 2025-07-17 09:28:23.392 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource:1953 - {dataSource-1} closed
 2025-07-17 09:28:23.393 [SpringApplicationShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:215 - dynamic-datasource all closed success,bye
+2025-07-17 09:59:21.083 [background-preinit] INFO  org.hibernate.validator.internal.util.Version:21 - HV000001: Hibernate Validator 6.2.5.Final
+2025-07-17 09:59:21.126 [main] INFO  org.jeecg.JeecgSystemApplication:55 - Starting JeecgSystemApplication using Java 18.0.2.1 on AnKou with PID 23236 (E:\work\tools\git\jeecg-boot\jeecg-module-system\jeecg-system-start\target\classes started by lll in E:\work\tools\git\jeecg-boot)
+2025-07-17 09:59:21.128 [main] INFO  org.jeecg.JeecgSystemApplication:638 - The following 1 profile is active: "dev"
+2025-07-17 09:59:27.752 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:262 - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-07-17 09:59:27.757 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-07-17 09:59:28.071 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 284 ms. Found 0 Redis repository interfaces.
+2025-07-17 09:59:28.279 [main] INFO  o.j.minidao.auto.MinidaoAutoConfiguration:23 -  ******************* init miniDao config [ begin ] *********************** 
+2025-07-17 09:59:28.279 [main] INFO  o.j.minidao.auto.MinidaoAutoConfiguration:25 -  ------ minidao.base-package ------- org.jeecg.modules.jmreport.*,org.jeecg.modules.drag.*
+2025-07-17 09:59:28.281 [main] INFO  o.j.minidao.auto.MinidaoAutoConfiguration:42 -  *******************  init miniDao config  [ end ] *********************** 
+2025-07-17 09:59:29.904 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportCategoryDao }
+2025-07-17 09:59:29.904 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDao }
+2025-07-17 09:59:29.904 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDataSourceDao }
+2025-07-17 09:59:29.904 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDbDao }
+2025-07-17 09:59:29.904 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDbFieldDao }
+2025-07-17 09:59:29.904 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDbParamDao }
+2025-07-17 09:59:29.904 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDictDao }
+2025-07-17 09:59:29.904 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportDictItemDao }
+2025-07-17 09:59:29.904 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportExportJobDao }
+2025-07-17 09:59:29.904 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportExportLogDao }
+2025-07-17 09:59:29.904 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportLinkDao }
+2025-07-17 09:59:29.904 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportMapDao }
+2025-07-17 09:59:29.904 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.jmreport.desreport.dao.JimuReportShareDao }
+2025-07-17 09:59:29.904 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.drag.dao.JimuDragCategoryDao }
+2025-07-17 09:59:29.904 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.drag.dao.JimuDragMapDao }
+2025-07-17 09:59:29.904 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.drag.dao.JimuReportIconLibDao }
+2025-07-17 09:59:29.904 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.drag.dao.OnlDragCompDao }
+2025-07-17 09:59:29.904 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.drag.dao.OnlDragDatasetHeadDao }
+2025-07-17 09:59:29.904 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.drag.dao.OnlDragDatasetItemDao }
+2025-07-17 09:59:29.904 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.drag.dao.OnlDragDatasetParamDao }
+2025-07-17 09:59:29.904 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.drag.dao.OnlDragDataSourceDao }
+2025-07-17 09:59:29.904 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.drag.dao.OnlDragPageCompDao }
+2025-07-17 09:59:29.904 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.drag.dao.OnlDragPageDao }
+2025-07-17 09:59:29.904 [main] INFO  o.j.minidao.factory.MiniDaoClassPathMapperScanner:55 - register minidao name is { org.jeecg.modules.drag.dao.OnlDragShareDao }
+2025-07-17 09:59:29.904 [main] INFO  o.s.c.annotation.ConfigurationClassPostProcessor:426 - Cannot enhance @Configuration bean definition 'com.yomahub.liteflow.springboot.config.LiteflowMainAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2025-07-17 09:59:30.441 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 09:59:30.441 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 09:59:30.482 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'org.springframework.boot.actuate.autoconfigure.metrics.redis.LettuceMetricsAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.redis.LettuceMetricsAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 09:59:30.485 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusMetricsExportAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusMetricsExportAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 09:59:30.493 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'management.metrics.export.prometheus-org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusProperties' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 09:59:30.496 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'prometheusConfig' of type [org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusPropertiesConfigAdapter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 09:59:30.499 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'collectorRegistry' of type [io.prometheus.client.CollectorRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 09:59:30.502 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration' of type [org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 09:59:30.504 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'micrometerClock' of type [io.micrometer.core.instrument.Clock$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 09:59:30.536 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'prometheusMeterRegistry' of type [io.micrometer.prometheus.PrometheusMeterRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 09:59:30.541 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'micrometerOptions' of type [io.lettuce.core.metrics.MicrometerOptions] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 09:59:30.543 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'lettuceMetrics' of type [org.springframework.boot.actuate.autoconfigure.metrics.redis.LettuceMetricsAutoConfiguration$$Lambda$663/0x00000008012c4748] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 09:59:31.156 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 09:59:31.389 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 09:59:31.404 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'jeecgBaseConfig' of type [org.jeecg.config.JeecgBaseConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 09:59:31.410 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'shiroConfig' of type [org.jeecg.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$19d9e84a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 09:59:32.323 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 09:59:32.333 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAopConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAopConfiguration$$EnhancerBySpringCGLIB$$3c0f57a5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 09:59:32.355 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 09:59:32.438 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'shiroRealm' of type [org.jeecg.config.shiro.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 09:59:32.605 [main] INFO  org.jeecg.config.shiro.ShiroConfig:289 - ===============(1)创建缓存管理器RedisCacheManager
+2025-07-17 09:59:32.612 [main] INFO  org.jeecg.config.shiro.ShiroConfig:310 - ===============(2)创建RedisManager,连接Redis..
+2025-07-17 09:59:32.622 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'redisManager' of type [org.crazycake.shiro.RedisManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 09:59:32.634 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 09:59:32.674 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 09:59:32.705 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'com.yomahub.liteflow.springboot.config.LiteflowPropertyAutoConfiguration' of type [com.yomahub.liteflow.springboot.config.LiteflowPropertyAutoConfiguration$$EnhancerBySpringCGLIB$$810f78cd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 09:59:32.721 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'liteflow-com.yomahub.liteflow.springboot.LiteflowProperty' of type [com.yomahub.liteflow.springboot.LiteflowProperty] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 09:59:32.733 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'liteflow.monitor-com.yomahub.liteflow.springboot.LiteflowMonitorProperty' of type [com.yomahub.liteflow.springboot.LiteflowMonitorProperty] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 09:59:32.743 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'liteflowConfig' of type [com.yomahub.liteflow.property.LiteflowConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 09:59:32.752 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'com.yomahub.liteflow.spi.spring.SpringAware' of type [com.yomahub.liteflow.spi.spring.SpringAware] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 09:59:32.768 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration' of type [org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$cdb67e01] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 09:59:32.775 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:376 - Bean 'eventBus' of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-17 09:59:33.372 [main] INFO  io.undertow.servlet:389 - Initializing Spring embedded WebApplicationContext
+2025-07-17 09:59:33.372 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:292 - Root WebApplicationContext: initialization completed in 11860 ms
+2025-07-17 09:59:34.725 [main] INFO  com.alibaba.druid.pool.DruidDataSource:673 - {dataSource-1,master} inited
+2025-07-17 09:59:34.727 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:154 - dynamic-datasource - add a datasource named [master] success
+2025-07-17 09:59:34.728 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:237 - dynamic-datasource initial loaded [1] datasource,primary datasource named [master]
+2025-07-17 09:59:34.787 [main] DEBUG org.flywaydb.core.internal.util.FeatureDetector:40 - Scanning for classpath resources at 'classpath:db/callback' ...
+2025-07-17 09:59:34.788 [main] DEBUG org.flywaydb.core.internal.util.FeatureDetector:40 - Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@78308db1 ...
+2025-07-17 09:59:34.788 [main] DEBUG org.flywaydb.core.internal.util.FeatureDetector:40 - Unable to resolve location classpath:db/callback.
+2025-07-17 09:59:34.788 [main] DEBUG org.flywaydb.core.internal.util.FeatureDetector:40 - AWS SDK available: false
+2025-07-17 09:59:34.789 [main] DEBUG org.flywaydb.core.internal.util.FeatureDetector:40 - Google Cloud Storage available: false
+2025-07-17 09:59:34.789 [main] DEBUG o.f.c.internal.scanner.classpath.ClassPathScanner:40 - Scanning for classpath resources at 'classpath:flyway/sql/mysql' ...
+2025-07-17 09:59:34.789 [main] DEBUG o.f.c.internal.scanner.classpath.ClassPathScanner:40 - Determining location urls for classpath:flyway/sql/mysql using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@78308db1 ...
+2025-07-17 09:59:34.790 [main] DEBUG o.f.c.internal.scanner.classpath.ClassPathScanner:40 - Scanning URL: file:/E:/work/tools/git/jeecg-boot/jeecg-module-system/jeecg-system-start/target/classes/flyway/sql/mysql
+2025-07-17 09:59:34.791 [main] DEBUG org.flywaydb.core.internal.util.FeatureDetector:40 - JBoss VFS v2 available: false
+2025-07-17 09:59:34.793 [main] DEBUG o.f.c.i.s.c.FileSystemClassPathLocationScanner:40 - Scanning starting at classpath root in filesystem: E:\work\tools\git\jeecg-boot\jeecg-module-system\jeecg-system-start\target\classes\
+2025-07-17 09:59:34.793 [main] DEBUG o.f.c.i.s.c.FileSystemClassPathLocationScanner:40 - Scanning for resources in path: E:\work\tools\git\jeecg-boot\jeecg-module-system\jeecg-system-start\target\classes\flyway\sql\mysql (flyway/sql/mysql)
+2025-07-17 09:59:34.795 [main] DEBUG o.f.c.i.s.c.FileSystemClassPathLocationScanner:40 - Scanning for resources in path: E:\work\tools\git\jeecg-boot\jeecg-module-system\jeecg-system-start\target\classes\flyway\sql\mysql\backup (flyway/sql/mysql)
+2025-07-17 09:59:34.800 [main] DEBUG o.f.c.internal.scanner.classpath.ClassPathScanner:40 - Found resource: flyway/sql/mysql/README.md
+2025-07-17 09:59:34.801 [main] DEBUG o.f.c.internal.scanner.classpath.ClassPathScanner:40 - Found resource: flyway/sql/mysql/V3.8.0_0__clear_flyway_sql.md
+2025-07-17 09:59:34.802 [main] DEBUG o.f.c.internal.scanner.classpath.ClassPathScanner:40 - Found resource: flyway/sql/mysql/V3.8.0_1__airag_add_menu.sql
+2025-07-17 09:59:34.802 [main] DEBUG o.f.c.internal.scanner.classpath.ClassPathScanner:40 - Found resource: flyway/sql/mysql/V3.8.0_2__airag_init_db.sql
+2025-07-17 09:59:34.803 [main] DEBUG o.f.c.internal.scanner.classpath.ClassPathScanner:40 - Found resource: flyway/sql/mysql/V3.8.1_1__all_upgrade.sql
+2025-07-17 09:59:34.803 [main] DEBUG o.f.c.internal.scanner.classpath.ClassPathScanner:40 - Found resource: flyway/sql/mysql/V3.8.1_2__openapi.sql
+2025-07-17 09:59:34.803 [main] DEBUG o.f.c.internal.scanner.classpath.ClassPathScanner:40 - Found resource: flyway/sql/mysql/backup/V20250403.zip
+2025-07-17 09:59:34.804 [main] DEBUG o.f.c.internal.scanner.classpath.ClassPathScanner:40 - Scanning for classes at classpath:flyway/sql/mysql
+2025-07-17 09:59:35.341 [main] INFO  org.flywaydb.core.internal.license.VersionPrinter:44 - Flyway Community Edition 7.15.0 by Redgate
+2025-07-17 09:59:35.342 [main] INFO  o.f.core.internal.database.base.BaseDatabaseType:44 - Database: jdbc:mysql://127.0.0.1:3306/jeecg-boot (MySQL 8.3)
+2025-07-17 09:59:35.342 [main] DEBUG o.f.core.internal.database.base.BaseDatabaseType:40 - Driver  : MySQL Connector/J mysql-connector-java-8.0.27 (Revision: e920b979015ae7117d60d72bcc8f077a839cd791)
+2025-07-17 09:59:35.469 [main] DEBUG org.flywaydb.core.Flyway:40 - DDL Transactions Supported: false
+2025-07-17 09:59:35.472 [main] DEBUG o.f.c.internal.schemahistory.SchemaHistoryFactory:40 - Schemas: 
+2025-07-17 09:59:35.472 [main] DEBUG o.f.c.internal.schemahistory.SchemaHistoryFactory:40 - Default schema: null
+2025-07-17 09:59:35.503 [main] WARN  org.flywaydb.core.internal.database.base.Database:48 - Flyway upgrade recommended: MySQL 8.3 is newer than this version of Flyway and support has not been tested. The latest supported version of MySQL is 8.0.
+2025-07-17 09:59:35.507 [main] DEBUG o.f.c.internal.callback.SqlScriptCallbackFactory:40 - Scanning for SQL callbacks ...
+2025-07-17 09:59:35.508 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner:40 - Filtering out resource: flyway/sql/mysql/V3.8.0_0__clear_flyway_sql.md (filename: V3.8.0_0__clear_flyway_sql.md)
+2025-07-17 09:59:35.508 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner:40 - Filtering out resource: flyway/sql/mysql/backup/V20250403.zip (filename: V20250403.zip)
+2025-07-17 09:59:35.508 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner:40 - Filtering out resource: flyway/sql/mysql/README.md (filename: README.md)
+2025-07-17 09:59:35.567 [main] DEBUG org.flywaydb.core.internal.command.DbValidate:40 - Validating migrations ...
+2025-07-17 09:59:35.575 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner:40 - Filtering out resource: flyway/sql/mysql/V3.8.0_0__clear_flyway_sql.md (filename: V3.8.0_0__clear_flyway_sql.md)
+2025-07-17 09:59:35.576 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner:40 - Filtering out resource: flyway/sql/mysql/backup/V20250403.zip (filename: V20250403.zip)
+2025-07-17 09:59:35.576 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner:40 - Filtering out resource: flyway/sql/mysql/README.md (filename: README.md)
+2025-07-17 09:59:35.640 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner:40 - Filtering out resource: flyway/sql/mysql/V3.8.0_0__clear_flyway_sql.md (filename: V3.8.0_0__clear_flyway_sql.md)
+2025-07-17 09:59:35.643 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner:40 - Filtering out resource: flyway/sql/mysql/V3.8.0_1__airag_add_menu.sql (filename: V3.8.0_1__airag_add_menu.sql)
+2025-07-17 09:59:35.643 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner:40 - Filtering out resource: flyway/sql/mysql/backup/V20250403.zip (filename: V20250403.zip)
+2025-07-17 09:59:35.643 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner:40 - Filtering out resource: flyway/sql/mysql/V3.8.1_1__all_upgrade.sql (filename: V3.8.1_1__all_upgrade.sql)
+2025-07-17 09:59:35.644 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner:40 - Filtering out resource: flyway/sql/mysql/V3.8.0_2__airag_init_db.sql (filename: V3.8.0_2__airag_init_db.sql)
+2025-07-17 09:59:35.645 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner:40 - Filtering out resource: flyway/sql/mysql/README.md (filename: README.md)
+2025-07-17 09:59:35.645 [main] DEBUG org.flywaydb.core.internal.scanner.Scanner:40 - Filtering out resource: flyway/sql/mysql/V3.8.1_2__openapi.sql (filename: V3.8.1_2__openapi.sql)
+2025-07-17 09:59:35.771 [main] INFO  org.flywaydb.core.internal.command.DbValidate:44 - Successfully validated 5 migrations (execution time 00:00.201s)
+2025-07-17 09:59:35.795 [main] INFO  org.flywaydb.core.internal.command.DbMigrate:44 - Current version of schema `jeecg-boot`: 3.8.1.2
+2025-07-17 09:59:35.800 [main] INFO  org.flywaydb.core.internal.command.DbMigrate:44 - Schema `jeecg-boot` is up to date. No migration necessary.
+2025-07-17 09:59:35.805 [main] DEBUG org.flywaydb.core.Flyway:40 - Memory usage: 102 of 129M
+2025-07-17 09:59:35.805 [main] INFO  org.jeecg.config.flyway.FlywayConfig:127 - 【数据库升级】平台集成了MySQL库的Flyway，数据库版本自动升级! 
+2025-07-17 09:59:39.587 [main] INFO  org.jeecg.common.modules.redis.config.RedisConfig:57 -  --- redis config init --- 
+2025-07-17 09:59:42.747 [main] INFO  org.quartz.impl.StdSchedulerFactory:1220 - Using default implementation for ThreadExecutor
+2025-07-17 09:59:42.769 [main] INFO  org.quartz.simpl.SimpleThreadPool:268 - Job execution threads will use class loader of thread: main
+2025-07-17 09:59:42.790 [main] INFO  org.quartz.core.SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-07-17 09:59:42.790 [main] INFO  org.quartz.core.QuartzScheduler:229 - Quartz Scheduler v.2.3.2 created.
+2025-07-17 09:59:42.795 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:672 - Using db table-based data access locking (synchronization).
+2025-07-17 09:59:42.808 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:145 - JobStoreCMT initialized.
+2025-07-17 09:59:42.810 [main] INFO  org.quartz.core.QuartzScheduler:294 - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'MyScheduler' with instanceId 'AnKou1752717582768'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2025-07-17 09:59:42.811 [main] INFO  org.quartz.impl.StdSchedulerFactory:1374 - Quartz scheduler 'MyScheduler' initialized from an externally provided properties instance.
+2025-07-17 09:59:42.811 [main] INFO  org.quartz.impl.StdSchedulerFactory:1378 - Quartz scheduler version: 2.3.2
+2025-07-17 09:59:42.820 [main] INFO  org.quartz.core.QuartzScheduler:2293 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@4f67dbce
+2025-07-17 09:59:46.029 [main] INFO  c.y.l.process.impl.CmpAroundAspectBeanProcess:32 - component aspect implement[nodeProcessAspect] has been found
+2025-07-17 09:59:46.761 [main] INFO  c.y.liteflow.process.impl.DeclWarpBeanProcess:37 - proxy component[classifier] has been found
+2025-07-17 09:59:46.787 [main] INFO  c.y.liteflow.process.impl.DeclWarpBeanProcess:37 - proxy component[end] has been found
+2025-07-17 09:59:46.801 [main] INFO  c.y.liteflow.process.impl.DeclWarpBeanProcess:37 - proxy component[http] has been found
+2025-07-17 09:59:46.811 [main] INFO  c.y.liteflow.process.impl.DeclWarpBeanProcess:37 - proxy component[knowledge] has been found
+2025-07-17 09:59:46.822 [main] INFO  c.y.liteflow.process.impl.DeclWarpBeanProcess:37 - proxy component[llm] has been found
+2025-07-17 09:59:46.830 [main] INFO  c.y.liteflow.process.impl.DeclWarpBeanProcess:37 - proxy component[enhanceJava] has been found
+2025-07-17 09:59:46.834 [main] INFO  c.y.liteflow.process.impl.DeclWarpBeanProcess:37 - proxy component[reply] has been found
+2025-07-17 09:59:46.834 [main] INFO  c.y.liteflow.process.impl.DeclWarpBeanProcess:37 - proxy component[start] has been found
+2025-07-17 09:59:46.854 [main] INFO  c.y.liteflow.process.impl.DeclWarpBeanProcess:37 - proxy component[subflow] has been found
+2025-07-17 09:59:46.862 [main] INFO  c.y.liteflow.process.impl.DeclWarpBeanProcess:37 - proxy component[switch] has been found
+2025-07-17 09:59:48.479 [main] INFO  org.jeecg.modules.drag.config.a.b.a:31 -  --- redis config init --- 
+2025-07-17 09:59:50.246 [main] INFO  o.j.config.shiro.ignore.IgnoreAuthPostProcessor:41 - Init Token ignoreAuthUrls Config [ 集合 ]  ：[/airag/flow/run, /airag/flow/run/*, /airag/app/queryById, /openapi/demo/index, /airag/chat/stop/*, /airag/chat/messages/clear/*, /airag/chat/conversations, /airag/chat/messages, /airag/chat/init, /airag/chat/conversation/*, /airag/chat/conversation/update/title, /airag/chat/send, /airag/chat/upload, /test/jeecgDemo/html]
+2025-07-17 09:59:50.248 [main] INFO  o.j.config.shiro.ignore.IgnoreAuthPostProcessor:49 - Init Token ignoreAuthUrls Config [ 耗时 ] ：5毫秒
+2025-07-17 09:59:50.284 [main] INFO  org.jeecg.config.init.CodeGenerateDbConfig:50 -  Init CodeGenerate Config [ Get Db Config From application.yml ] 
+2025-07-17 09:59:53.072 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:58 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2025-07-17 09:59:53.259 [main] INFO  io.undertow.websockets.jsr:639 - UT026003: Adding annotated server endpoint class org.jeecg.modules.message.websocket.WebSocket for path /websocket/{userId}
+2025-07-17 09:59:53.274 [main] INFO  io.undertow.websockets.jsr:639 - UT026003: Adding annotated server endpoint class org.jeecg.modules.drag.config.websocket.DragChannelWebSocket for path /dragChannelSocket/{token}
+2025-07-17 09:59:53.275 [main] INFO  io.undertow.websockets.jsr:639 - UT026003: Adding annotated server endpoint class org.jeecg.modules.drag.config.websocket.DragWebSocket for path /websocket/drag/{chartId}
+2025-07-17 09:59:53.275 [main] INFO  io.undertow.websockets.jsr:639 - UT026003: Adding annotated server endpoint class org.jeecg.modules.demo.mock.vxe.websocket.VxeSocket for path /vxeSocket/{userId}/{pageId}
+2025-07-17 09:59:53.326 [main] INFO  c.y.liteflow.parser.factory.FlowParserProvider:193 - flow info loaded from class config with el,class=com.yomahub.liteflow.parser.sql.SQLXmlELParser
+2025-07-17 09:59:53.388 [main] INFO  c.yomahub.liteflow.parser.sql.read.AbstractSqlRead:186 - query sql: select id, application_name, chain from airag_flow where status = 'enable' and chain is not null
+2025-07-17 09:59:53.399 [main] INFO  c.y.liteflow.parser.sql.util.LiteFlowJdbcUtil:43 - use dataSourceName[dataSource],has found liteflow config
+2025-07-17 09:59:54.036 [main] INFO  io.undertow:120 - starting server: Undertow - 2.2.28.Final
+2025-07-17 09:59:54.060 [main] INFO  org.xnio:95 - XNIO version 3.8.7.Final
+2025-07-17 09:59:54.078 [main] INFO  org.xnio.nio:58 - XNIO NIO Implementation Version 3.8.7.Final
+2025-07-17 09:59:54.121 [main] INFO  org.jboss.threads:52 - JBoss Threads version 3.1.0.Final
+2025-07-17 09:59:54.201 [main] INFO  o.s.boot.web.embedded.undertow.UndertowWebServer:119 - Undertow started on port(s) 8080 (http) with context path '/jeecg-boot'
+2025-07-17 09:59:55.059 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:734 - Will start Quartz Scheduler [MyScheduler] in 1 seconds
+2025-07-17 09:59:55.106 [main] INFO  org.jeecg.JeecgSystemApplication:61 - Started JeecgSystemApplication in 35.134 seconds (JVM running for 38.992)
+2025-07-17 09:59:55.112 [main] INFO  org.jeecg.config.init.CodeTemplateInitListener:30 -  Init Code Generate Template [ 检测如果是JAR启动，Copy模板到config目录 ] 
+2025-07-17 09:59:55.275 [main] INFO  org.jeecg.config.init.CodeTemplateInitListener:33 -  Init Code Generate Template completed in 163 ms
+2025-07-17 09:59:55.320 [main] INFO  org.jeecg.JeecgSystemApplication:41 - 
+----------------------------------------------------------
+	Application Jeecg-Boot is running! Access URLs:
+	Local: 		http://localhost:8080/jeecg-boot/doc.html
+	External: 	http://192.168.10.199:8080/jeecg-boot/doc.html
+	Swagger文档: 	http://192.168.10.199:8080/jeecg-boot/doc.html
+----------------------------------------------------------
+2025-07-17 09:59:56.061 [Quartz Scheduler [MyScheduler]] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:750 - Starting Quartz Scheduler now, after delay of 1 seconds
+2025-07-17 09:59:56.393 [Quartz Scheduler [MyScheduler]] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:3644 - ClusterManager: detected 1 failed or restarted instances.
+2025-07-17 09:59:56.394 [Quartz Scheduler [MyScheduler]] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:3503 - ClusterManager: Scanning for instance "AnKou1752712778086"'s failed in-progress jobs.
+2025-07-17 09:59:56.419 [Quartz Scheduler [MyScheduler]] INFO  org.quartz.core.QuartzScheduler:547 - Scheduler MyScheduler_$_AnKou1752717582768 started.
+2025-07-17 10:01:09.632 [XNIO-1 task-1] INFO  io.undertow.servlet:389 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-17 10:01:09.635 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2025-07-17 10:01:09.658 [XNIO-1 task-1] INFO  org.springframework.web.servlet.DispatcherServlet:547 - Completed initialization in 21 ms
+2025-07-17 10:01:33.465 [XNIO-1 task-2] INFO  o.j.m.system.controller.SysAnnouncementController:348 - -----查询近两个月收到的未读通知-----，近2月的第一天：2025-06-01 00:00:00
+2025-07-17 10:01:33.508 [XNIO-1 task-2] INFO  o.j.m.system.controller.SysAnnouncementController:363 - begin 获取用户近2个月的系统公告 (通知)64毫秒
+2025-07-17 10:01:33.520 [XNIO-1 task-2] INFO  o.j.m.system.controller.SysAnnouncementController:371 - end 获取用户2个月的系统公告 (系统消息)77毫秒
+2025-07-17 10:06:55.757 [XNIO-1 task-1] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1117 - -------通过数据库读取用户拥有的角色Rules------username： admin,Roles size: 2
+2025-07-17 10:07:41.984 [XNIO-1 task-5] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1117 - -------通过数据库读取用户拥有的角色Rules------username： admin,Roles size: 2
+2025-07-17 10:08:28.099 [XNIO-1 task-3] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1117 - -------通过数据库读取用户拥有的角色Rules------username： admin,Roles size: 2
+2025-07-17 10:08:28.241 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.b.m:73 - ---------自定义页面列表-------req.getParameter.lowAPPId:
+2025-07-17 10:08:28.242 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.b.m:74 - ---------自定义页面列表-------onlDragPage.getLowAppId:null
+2025-07-17 10:08:28.242 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.b.m:76 - 进入设计器列表，Saas模式:  ,登录Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUyODUwMzk3fQ.-z77SN2l7XoT9pdy129jndsWoJU592OOdAKZR3uk6Ts
+2025-07-17 10:08:28.320 [XNIO-1 task-3] INFO  org.jeecg.modules.drag.b.m:73 - ---------自定义页面列表-------req.getParameter.lowAPPId:
+2025-07-17 10:08:28.320 [XNIO-1 task-3] INFO  org.jeecg.modules.drag.b.m:74 - ---------自定义页面列表-------onlDragPage.getLowAppId:null
+2025-07-17 10:08:28.320 [XNIO-1 task-3] INFO  org.jeecg.modules.drag.b.m:76 - 进入设计器列表，Saas模式:  ,登录Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUyODUwMzk3fQ.-z77SN2l7XoT9pdy129jndsWoJU592OOdAKZR3uk6Ts
+2025-07-17 10:08:36.619 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.b.m:73 - ---------自定义页面列表-------req.getParameter.lowAPPId:
+2025-07-17 10:08:36.619 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.b.m:74 - ---------自定义页面列表-------onlDragPage.getLowAppId:null
+2025-07-17 10:08:36.619 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.b.m:76 - 进入设计器列表，Saas模式:  ,登录Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUyODUwMzk3fQ.-z77SN2l7XoT9pdy129jndsWoJU592OOdAKZR3uk6Ts
+2025-07-17 10:08:37.679 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.b.m:73 - ---------自定义页面列表-------req.getParameter.lowAPPId:
+2025-07-17 10:08:37.680 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.b.m:74 - ---------自定义页面列表-------onlDragPage.getLowAppId:null
+2025-07-17 10:08:37.680 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.b.m:76 - 进入设计器列表，Saas模式:  ,登录Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUyODUwMzk3fQ.-z77SN2l7XoT9pdy129jndsWoJU592OOdAKZR3uk6Ts
+2025-07-17 10:08:38.150 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.b.m:73 - ---------自定义页面列表-------req.getParameter.lowAPPId:
+2025-07-17 10:08:38.150 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.b.m:74 - ---------自定义页面列表-------onlDragPage.getLowAppId:null
+2025-07-17 10:08:38.150 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.b.m:76 - 进入设计器列表，Saas模式:  ,登录Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUyODUwMzk3fQ.-z77SN2l7XoT9pdy129jndsWoJU592OOdAKZR3uk6Ts
+2025-07-17 10:08:38.521 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.b.m:73 - ---------自定义页面列表-------req.getParameter.lowAPPId:
+2025-07-17 10:08:38.522 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.b.m:74 - ---------自定义页面列表-------onlDragPage.getLowAppId:null
+2025-07-17 10:08:38.523 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.b.m:76 - 进入设计器列表，Saas模式:  ,登录Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUyODUwMzk3fQ.-z77SN2l7XoT9pdy129jndsWoJU592OOdAKZR3uk6Ts
+2025-07-17 10:08:39.368 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.b.m:73 - ---------自定义页面列表-------req.getParameter.lowAPPId:
+2025-07-17 10:08:39.368 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.b.m:74 - ---------自定义页面列表-------onlDragPage.getLowAppId:null
+2025-07-17 10:08:39.368 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.b.m:76 - 进入设计器列表，Saas模式:  ,登录Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUyODUwMzk3fQ.-z77SN2l7XoT9pdy129jndsWoJU592OOdAKZR3uk6Ts
+2025-07-17 10:08:39.917 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.b.m:73 - ---------自定义页面列表-------req.getParameter.lowAPPId:
+2025-07-17 10:08:39.917 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.b.m:74 - ---------自定义页面列表-------onlDragPage.getLowAppId:null
+2025-07-17 10:08:39.917 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.b.m:76 - 进入设计器列表，Saas模式:  ,登录Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUyODUwMzk3fQ.-z77SN2l7XoT9pdy129jndsWoJU592OOdAKZR3uk6Ts
+2025-07-17 10:11:34.360 [XNIO-1 task-1] INFO  o.j.m.system.controller.SysPermissionController:114 - ======获取全部菜单数据=====耗时:73毫秒
+2025-07-17 10:11:42.480 [XNIO-1 task-1] INFO  o.j.m.system.controller.SysPermissionController:114 - ======获取全部菜单数据=====耗时:26毫秒
+2025-07-17 10:11:58.334 [XNIO-1 task-1] INFO  o.j.m.system.controller.SysPermissionController:114 - ======获取全部菜单数据=====耗时:25毫秒
+2025-07-17 10:14:39.129 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.b.m:73 - ---------自定义页面列表-------req.getParameter.lowAPPId:
+2025-07-17 10:14:39.130 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.b.m:74 - ---------自定义页面列表-------onlDragPage.getLowAppId:null
+2025-07-17 10:14:39.130 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.b.m:76 - 进入设计器列表，Saas模式:  ,登录Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUyODUwMzk3fQ.-z77SN2l7XoT9pdy129jndsWoJU592OOdAKZR3uk6Ts
+2025-07-17 10:14:42.200 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.b.a:104 -  screenIndex 登录令牌token： eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUyODUwMzk3fQ.-z77SN2l7XoT9pdy129jndsWoJU592OOdAKZR3uk6Ts
+2025-07-17 10:14:42.528 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.b.m:316 - 查询仪表盘信息，仪表盘名字：大屏1，ID:1105630554306154496
+2025-07-17 10:14:42.833 [XNIO-1 task-1] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1117 - -------通过数据库读取用户拥有的角色Rules------username： admin,Roles size: 2
+2025-07-17 10:15:14.905 [XNIO-1 task-3] INFO  org.jeecg.modules.drag.b.m:73 - ---------自定义页面列表-------req.getParameter.lowAPPId:
+2025-07-17 10:15:14.905 [XNIO-1 task-3] INFO  org.jeecg.modules.drag.b.m:74 - ---------自定义页面列表-------onlDragPage.getLowAppId:null
+2025-07-17 10:15:14.905 [XNIO-1 task-3] INFO  org.jeecg.modules.drag.b.m:76 - 进入设计器列表，Saas模式:  ,登录Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUyODUwMzk3fQ.-z77SN2l7XoT9pdy129jndsWoJU592OOdAKZR3uk6Ts
+2025-07-17 10:15:28.757 [XNIO-1 task-3] INFO  org.jeecg.modules.drag.b.a:104 -  screenIndex 登录令牌token： eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUyODUwMzk3fQ.-z77SN2l7XoT9pdy129jndsWoJU592OOdAKZR3uk6Ts
+2025-07-17 10:15:28.758 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.b.m:73 - ---------自定义页面列表-------req.getParameter.lowAPPId:
+2025-07-17 10:15:28.759 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.b.m:74 - ---------自定义页面列表-------onlDragPage.getLowAppId:null
+2025-07-17 10:15:28.759 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.b.m:76 - 进入设计器列表，Saas模式:  ,登录Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUyODUwMzk3fQ.-z77SN2l7XoT9pdy129jndsWoJU592OOdAKZR3uk6Ts
+2025-07-17 10:15:28.964 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.b.m:316 - 查询仪表盘信息，仪表盘名字：测试数据大屏1，ID:1105647552377425920
+2025-07-17 10:15:29.246 [XNIO-1 task-1] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1117 - -------通过数据库读取用户拥有的角色Rules------username： admin,Roles size: 2
+2025-07-17 10:17:19.504 [XNIO-1 task-6] INFO  o.j.c.firewall.interceptor.LowCodeModeInterceptor:58 - 低代码模式，拦截请求路径：/jeecg-boot/drag/onlDragDataSource/testConnection
+2025-07-17 10:17:19.594 [XNIO-1 task-6] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1162 - -------通过数据库读取用户拥有的权限Perms------userId： e9ca23d68d884d4ebb19d07889727dae,Perms size: 183
+2025-07-17 10:17:19.598 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.b.h:263 - drag: local cache key: 8ed244a6d149cc0eeb9e3efd89e0c982
+2025-07-17 10:17:19.598 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.b.h:265 - drag: local cache connetTimes: null
+2025-07-17 10:17:19.675 [XNIO-1 task-6] ERROR org.jeecg.modules.drag.b.h:300 - java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+	at org.jeecg.modules.drag.b.h.a(OnlDragDataSourceController.java:288)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:517)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:584)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at io.undertow.websockets.jsr.JsrWebSocketFilter.doFilter(JsrWebSocketFilter.java:173)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:114)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:154)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:154)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:458)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:373)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:370)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:154)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:117)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.SendErrorPageHandler.handleRequest(SendErrorPageHandler.java:52)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:275)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:79)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:134)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:131)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:255)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleRequest(ServletInitialHandler.java:175)
+	at org.jeecg.modules.monitor.actuator.undertow.CustomUndertowMetricsHandler.lambda$wrap$0(CustomUndertowMetricsHandler.java:87)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:393)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:852)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:2019)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1558)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1449)
+	at org.xnio.XnioWorker$WorkerThreadFactory$1$1.run(XnioWorker.java:1282)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2025-07-17 10:17:26.793 [XNIO-1 task-6] INFO  o.j.c.firewall.interceptor.LowCodeModeInterceptor:58 - 低代码模式，拦截请求路径：/jeecg-boot/drag/onlDragDataSource/testConnection
+2025-07-17 10:17:26.826 [XNIO-1 task-6] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1162 - -------通过数据库读取用户拥有的权限Perms------userId： e9ca23d68d884d4ebb19d07889727dae,Perms size: 183
+2025-07-17 10:17:26.827 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.b.h:263 - drag: local cache key: 048a2495e0801fb666ac69bb33dffaca
+2025-07-17 10:17:26.827 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.b.h:265 - drag: local cache connetTimes: null
+2025-07-17 10:17:28.388 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.b.h:152 - 修改数据库连接ID:707437208002265088 ,连接名字: MySQL5.7，操作人： admin
+2025-07-17 10:18:39.556 [XNIO-1 task-6] INFO  o.j.c.firewall.interceptor.LowCodeModeInterceptor:58 - 低代码模式，拦截请求路径：/jeecg-boot/drag/onlDragDataSource/testConnection
+2025-07-17 10:18:39.590 [XNIO-1 task-6] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1162 - -------通过数据库读取用户拥有的权限Perms------userId： e9ca23d68d884d4ebb19d07889727dae,Perms size: 183
+2025-07-17 10:18:39.591 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.b.h:263 - drag: local cache key: e61268ebe7d3ea2b5371e7471f16e370
+2025-07-17 10:18:39.591 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.b.h:265 - drag: local cache connetTimes: null
+2025-07-17 10:18:39.866 [XNIO-1 task-6] ERROR org.jeecg.modules.drag.b.h:300 - com.microsoft.sqlserver.jdbc.SQLServerException: 无法打开登录所请求的数据库 "jimureport"。登录失败。 ClientConnectionId:b93d872e-8c03-41ab-a387-f2ad2e7d173b
+com.microsoft.sqlserver.jdbc.SQLServerException: 无法打开登录所请求的数据库 "jimureport"。登录失败。 ClientConnectionId:b93d872e-8c03-41ab-a387-f2ad2e7d173b
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:216)
+	at com.microsoft.sqlserver.jdbc.TDSTokenHandler.onEOF(tdsparser.java:254)
+	at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:84)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.sendLogon(SQLServerConnection.java:2908)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.logon(SQLServerConnection.java:2234)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.access$000(SQLServerConnection.java:41)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection$LogonCommand.doExecute(SQLServerConnection.java:2220)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:5696)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:1715)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:1326)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:991)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:827)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1012)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+	at org.jeecg.modules.drag.b.h.a(OnlDragDataSourceController.java:288)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:517)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:584)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at io.undertow.websockets.jsr.JsrWebSocketFilter.doFilter(JsrWebSocketFilter.java:173)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:114)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:154)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:154)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:458)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:373)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:370)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:154)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:117)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.SendErrorPageHandler.handleRequest(SendErrorPageHandler.java:52)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:275)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:79)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:134)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:131)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:255)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleRequest(ServletInitialHandler.java:175)
+	at org.jeecg.modules.monitor.actuator.undertow.CustomUndertowMetricsHandler.lambda$wrap$0(CustomUndertowMetricsHandler.java:87)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:393)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:852)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:2019)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1558)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1449)
+	at org.xnio.XnioWorker$WorkerThreadFactory$1$1.run(XnioWorker.java:1282)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2025-07-17 10:22:34.855 [XNIO-1 task-6] INFO  o.j.c.firewall.interceptor.LowCodeModeInterceptor:58 - 低代码模式，拦截请求路径：/jeecg-boot/drag/onlDragDataSource/testConnection
+2025-07-17 10:22:34.921 [XNIO-1 task-6] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1162 - -------通过数据库读取用户拥有的权限Perms------userId： e9ca23d68d884d4ebb19d07889727dae,Perms size: 183
+2025-07-17 10:22:34.927 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.b.h:263 - drag: local cache key: e61268ebe7d3ea2b5371e7471f16e370
+2025-07-17 10:22:34.928 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.b.h:265 - drag: local cache connetTimes: 1
+2025-07-17 10:22:34.929 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.b.h:269 -  local cache connetTime:1 
+2025-07-17 10:22:37.403 [XNIO-1 task-6] INFO  o.j.c.firewall.interceptor.LowCodeModeInterceptor:58 - 低代码模式，拦截请求路径：/jeecg-boot/drag/onlDragDataSource/add
+2025-07-17 10:26:45.273 [XNIO-1 task-6] INFO  o.j.c.firewall.interceptor.LowCodeModeInterceptor:58 - 低代码模式，拦截请求路径：/jeecg-boot/drag/onlDragDatasetHead/queryFieldBySql
+2025-07-17 10:26:45.338 [XNIO-1 task-6] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1162 - -------通过数据库读取用户拥有的权限Perms------userId： e9ca23d68d884d4ebb19d07889727dae,Perms size: 183
+2025-07-17 10:26:45.472 [XNIO-1 task-6] WARN  com.zaxxer.hikari.HikariConfig:1084 - HikariCP - idleTimeout is close to or more than maxLifetime, disabling it.
+2025-07-17 10:26:45.475 [XNIO-1 task-6] INFO  com.zaxxer.hikari.HikariDataSource:110 - HikariCP - Starting...
+2025-07-17 10:26:45.568 [XNIO-1 task-6] INFO  com.zaxxer.hikari.HikariDataSource:123 - HikariCP - Start completed.
+2025-07-17 10:27:30.009 [XNIO-1 task-6] INFO  o.j.c.firewall.interceptor.LowCodeModeInterceptor:58 - 低代码模式，拦截请求路径：/jeecg-boot/drag/onlDragDatasetHead/add
+2025-07-17 10:27:30.040 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.b.i:132 - 拖拽API 数据集新增 tenantId:{}
+2025-07-17 10:33:56.068 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class
+2025-07-17 10:33:56.071 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class
+2025-07-17 10:34:14.689 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class
+2025-07-17 10:34:14.692 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class
+2025-07-17 10:35:06.456 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class
+2025-07-17 10:35:06.459 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class
+2025-07-17 10:35:39.270 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class
+2025-07-17 10:35:39.270 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class
+2025-07-17 10:36:00.725 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class
+2025-07-17 10:36:00.729 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class
+2025-07-17 10:37:04.500 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class
+2025-07-17 10:37:04.503 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class
+2025-07-17 10:37:05.318 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class
+2025-07-17 10:37:05.321 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class
+2025-07-17 10:37:58.807 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class
+2025-07-17 10:37:58.809 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class
+2025-07-17 10:38:17.830 [XNIO-1 task-6] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/3f0b5b854a194ca698f2685cbb33296d
+2025-07-17 10:38:17.830 [XNIO-1 task-6] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/3f0b5b854a194ca698f2685cbb33296d]
+2025-07-17 10:38:17.833 [XNIO-1 task-2] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/3f0b5b854a194ca698f2685cbb33296d
+2025-07-17 10:38:17.834 [XNIO-1 task-2] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/3f0b5b854a194ca698f2685cbb33296d]
+2025-07-17 10:38:18.063 [XNIO-1 task-3] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/3f0b5b854a194ca698f2685cbb33296d
+2025-07-17 10:38:18.063 [XNIO-1 task-3] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/3f0b5b854a194ca698f2685cbb33296d]
+2025-07-17 10:38:50.395 [XNIO-1 task-3] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class
+2025-07-17 10:38:50.409 [XNIO-1 task-3] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class
+2025-07-17 10:41:50.713 [XNIO-1 task-3] INFO  o.j.c.firewall.interceptor.LowCodeModeInterceptor:58 - 低代码模式，拦截请求路径：/jeecg-boot/drag/onlDragDatasetHead/queryFieldBySql
+2025-07-17 10:41:50.832 [XNIO-1 task-3] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1162 - -------通过数据库读取用户拥有的权限Perms------userId： e9ca23d68d884d4ebb19d07889727dae,Perms size: 183
+2025-07-17 10:41:55.731 [XNIO-1 task-3] INFO  o.j.c.firewall.interceptor.LowCodeModeInterceptor:58 - 低代码模式，拦截请求路径：/jeecg-boot/drag/onlDragDatasetHead/add
+2025-07-17 10:41:55.747 [XNIO-1 task-3] INFO  org.jeecg.modules.drag.b.i:132 - 拖拽API 数据集新增 tenantId:{}
+2025-07-17 10:42:21.095 [XNIO-1 task-1] INFO  o.j.c.firewall.interceptor.LowCodeModeInterceptor:58 - 低代码模式，拦截请求路径：/jeecg-boot/drag/onlDragDatasetHead/queryFieldBySql
+2025-07-17 10:42:21.156 [XNIO-1 task-1] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1162 - -------通过数据库读取用户拥有的权限Perms------userId： e9ca23d68d884d4ebb19d07889727dae,Perms size: 183
+2025-07-17 10:42:39.585 [XNIO-1 task-3] INFO  org.jeecg.modules.drag.b.i:194 - 拖拽API 数据集编辑 tenantId:{}
+2025-07-17 10:42:54.926 [XNIO-1 task-1] INFO  o.j.c.firewall.interceptor.LowCodeModeInterceptor:58 - 低代码模式，拦截请求路径：/jeecg-boot/drag/onlDragDatasetHead/queryFieldBySql
+2025-07-17 10:42:54.981 [XNIO-1 task-1] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1162 - -------通过数据库读取用户拥有的权限Perms------userId： e9ca23d68d884d4ebb19d07889727dae,Perms size: 183
+2025-07-17 10:42:56.724 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.b.i:194 - 拖拽API 数据集编辑 tenantId:{}
+2025-07-17 10:43:42.598 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 10:43:42.601 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 10:45:51.029 [XNIO-1 task-3] INFO  org.jeecg.modules.drag.b.i:194 - 拖拽API 数据集编辑 tenantId:{}
+2025-07-17 10:46:09.073 [XNIO-1 task-5] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 10:46:09.075 [XNIO-1 task-5] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 10:47:07.030 [XNIO-1 task-3] INFO  org.jeecg.modules.drag.b.i:194 - 拖拽API 数据集编辑 tenantId:{}
+2025-07-17 10:48:34.718 [XNIO-1 task-5] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 10:48:34.721 [XNIO-1 task-5] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 10:48:57.497 [XNIO-1 task-5] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 10:48:57.499 [XNIO-1 task-5] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 10:50:59.412 [XNIO-1 task-5] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 10:50:59.415 [XNIO-1 task-5] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 10:51:20.004 [XNIO-1 task-5] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 10:51:20.005 [XNIO-1 task-5] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 10:52:36.544 [XNIO-1 task-5] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 10:52:36.546 [XNIO-1 task-5] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 10:52:40.593 [XNIO-1 task-5] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 10:52:40.597 [XNIO-1 task-5] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 10:53:06.268 [XNIO-1 task-2] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/7f7249e912324d299c8de6964f29804f
+2025-07-17 10:53:06.268 [XNIO-1 task-1] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/babfaea2ec814a90ab1a89805b2946ba
+2025-07-17 10:53:06.268 [XNIO-1 task-5] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/43122ec3a43b43cca0f464c492c332a3
+2025-07-17 10:53:06.268 [XNIO-1 task-1] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/babfaea2ec814a90ab1a89805b2946ba]
+2025-07-17 10:53:06.268 [XNIO-1 task-2] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/7f7249e912324d299c8de6964f29804f]
+2025-07-17 10:53:06.268 [XNIO-1 task-5] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/43122ec3a43b43cca0f464c492c332a3]
+2025-07-17 10:53:06.554 [XNIO-1 task-5] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/7f7249e912324d299c8de6964f29804f
+2025-07-17 10:53:06.555 [XNIO-1 task-5] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/7f7249e912324d299c8de6964f29804f]
+2025-07-17 10:53:06.640 [XNIO-1 task-5] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/7f7249e912324d299c8de6964f29804f
+2025-07-17 10:53:06.640 [XNIO-1 task-5] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/7f7249e912324d299c8de6964f29804f]
+2025-07-17 10:53:06.733 [XNIO-1 task-5] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/43122ec3a43b43cca0f464c492c332a3
+2025-07-17 10:53:06.733 [XNIO-1 task-5] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/43122ec3a43b43cca0f464c492c332a3]
+2025-07-17 10:53:06.784 [XNIO-1 task-2] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/babfaea2ec814a90ab1a89805b2946ba
+2025-07-17 10:53:06.784 [XNIO-1 task-1] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/babfaea2ec814a90ab1a89805b2946ba
+2025-07-17 10:53:06.785 [XNIO-1 task-2] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/babfaea2ec814a90ab1a89805b2946ba]
+2025-07-17 10:53:06.785 [XNIO-1 task-1] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/babfaea2ec814a90ab1a89805b2946ba]
+2025-07-17 10:53:06.835 [XNIO-1 task-5] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/43122ec3a43b43cca0f464c492c332a3
+2025-07-17 10:53:06.836 [XNIO-1 task-5] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/43122ec3a43b43cca0f464c492c332a3]
+2025-07-17 10:53:47.205 [XNIO-1 task-5] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/babfaea2ec814a90ab1a89805b2946ba
+2025-07-17 10:53:47.206 [XNIO-1 task-5] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/babfaea2ec814a90ab1a89805b2946ba]
+2025-07-17 10:53:59.104 [XNIO-1 task-2] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/babfaea2ec814a90ab1a89805b2946ba
+2025-07-17 10:53:59.105 [XNIO-1 task-2] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/babfaea2ec814a90ab1a89805b2946ba]
+2025-07-17 10:54:18.033 [XNIO-1 task-2] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/babfaea2ec814a90ab1a89805b2946ba
+2025-07-17 10:54:18.034 [XNIO-1 task-2] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/babfaea2ec814a90ab1a89805b2946ba]
+2025-07-17 10:54:29.404 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 10:54:29.406 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 10:54:31.928 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 10:54:31.930 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 10:55:13.823 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 10:55:13.825 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 10:56:49.214 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 10:56:49.216 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 10:57:00.460 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class
+2025-07-17 10:57:00.462 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class
+2025-07-17 10:57:09.638 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 10:57:09.640 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 10:59:47.344 [XNIO-1 task-2] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/babfaea2ec814a90ab1a89805b2946ba
+2025-07-17 10:59:47.346 [XNIO-1 task-2] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/babfaea2ec814a90ab1a89805b2946ba]
+2025-07-17 10:59:58.346 [XNIO-1 task-2] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/babfaea2ec814a90ab1a89805b2946ba
+2025-07-17 10:59:58.347 [XNIO-1 task-2] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/babfaea2ec814a90ab1a89805b2946ba]
+2025-07-17 11:00:12.894 [XNIO-1 task-2] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/babfaea2ec814a90ab1a89805b2946ba
+2025-07-17 11:00:12.895 [XNIO-1 task-2] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/babfaea2ec814a90ab1a89805b2946ba]
+2025-07-17 11:00:18.776 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:00:18.777 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:01:01.079 [XNIO-1 task-5] INFO  org.jeecg.modules.drag.b.i:194 - 拖拽API 数据集编辑 tenantId:{}
+2025-07-17 11:01:08.266 [XNIO-1 task-5] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:01:08.269 [XNIO-1 task-5] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:01:08.344 [XNIO-1 task-5] WARN  org.jeecg.modules.drag.service.a.f:1200 - 积木字典和用户字典存在冲突，以用户自定义的字典优先dictCode：sex
+2025-07-17 11:01:15.806 [XNIO-1 task-5] INFO  org.jeecg.modules.drag.service.a.j:151 - 修改仪表盘配置，onlDragPage id:1105647552377425920, updateCount:null
+2025-07-17 11:01:15.827 [XNIO-1 task-5] INFO  o.j.c.modules.redis.writer.JeecgRedisCacheWriter:117 - redis remove key:drag:cache:page::1105647552377425920
+2025-07-17 11:03:37.571 [XNIO-1 task-5] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:03:37.572 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:03:37.572 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class
+2025-07-17 11:03:37.573 [XNIO-1 task-5] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:03:37.576 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:03:37.576 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class
+2025-07-17 11:03:37.596 [XNIO-1 task-5] WARN  org.jeecg.modules.drag.service.a.f:1200 - 积木字典和用户字典存在冲突，以用户自定义的字典优先dictCode：sex
+2025-07-17 11:03:37.600 [XNIO-1 task-2] WARN  org.jeecg.modules.drag.service.a.f:1200 - 积木字典和用户字典存在冲突，以用户自定义的字典优先dictCode：sex
+2025-07-17 11:03:57.685 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:03:57.687 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:03:57.703 [XNIO-1 task-2] WARN  org.jeecg.modules.drag.service.a.f:1200 - 积木字典和用户字典存在冲突，以用户自定义的字典优先dictCode：sex
+2025-07-17 11:05:38.364 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class
+2025-07-17 11:05:38.367 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class
+2025-07-17 11:06:26.980 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:06:26.983 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:06:27.012 [XNIO-1 task-2] WARN  org.jeecg.modules.drag.service.a.f:1200 - 积木字典和用户字典存在冲突，以用户自定义的字典优先dictCode：sex
+2025-07-17 11:06:32.063 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.j:151 - 修改仪表盘配置，onlDragPage id:1105647552377425920, updateCount:null
+2025-07-17 11:06:32.094 [XNIO-1 task-2] INFO  o.j.c.modules.redis.writer.JeecgRedisCacheWriter:117 - redis remove key:drag:cache:page::1105647552377425920
+2025-07-17 11:06:45.661 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.b.a:104 -  screenIndex 登录令牌token： eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUyODUwMzk3fQ.-z77SN2l7XoT9pdy129jndsWoJU592OOdAKZR3uk6Ts
+2025-07-17 11:06:45.975 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.b.m:316 - 查询仪表盘信息，仪表盘名字：北京科技数字化云平台，ID:1014376428645961728
+2025-07-17 11:06:46.452 [XNIO-1 task-1] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1117 - -------通过数据库读取用户拥有的角色Rules------username： admin,Roles size: 2
+2025-07-17 11:07:27.582 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.b.a:104 -  screenIndex 登录令牌token： eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUyODUwMzk3fQ.-z77SN2l7XoT9pdy129jndsWoJU592OOdAKZR3uk6Ts
+2025-07-17 11:07:27.798 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.b.m:316 - 查询仪表盘信息，仪表盘名字：监狱财政科数据展示，ID:1016497921022545920
+2025-07-17 11:07:28.177 [XNIO-1 task-4] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1117 - -------通过数据库读取用户拥有的角色Rules------username： admin,Roles size: 2
+2025-07-17 11:07:32.394 [XNIO-1 task-3] INFO  org.jeecg.modules.drag.b.a:104 -  screenIndex 登录令牌token： eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUyODUwMzk3fQ.-z77SN2l7XoT9pdy129jndsWoJU592OOdAKZR3uk6Ts
+2025-07-17 11:07:32.621 [XNIO-1 task-3] INFO  org.jeecg.modules.drag.b.m:316 - 查询仪表盘信息，仪表盘名字：北京税务在线监控，ID:1011871598899679232
+2025-07-17 11:07:33.133 [XNIO-1 task-1] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1117 - -------通过数据库读取用户拥有的角色Rules------username： admin,Roles size: 2
+2025-07-17 11:07:58.426 [XNIO-1 task-3] INFO  org.jeecg.modules.drag.b.a:104 -  screenIndex 登录令牌token： eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUyODUwMzk3fQ.-z77SN2l7XoT9pdy129jndsWoJU592OOdAKZR3uk6Ts
+2025-07-17 11:07:58.704 [XNIO-1 task-3] INFO  org.jeecg.modules.drag.b.m:316 - 查询仪表盘信息，仪表盘名字：医院实时数据监控，ID:1011800681234354176
+2025-07-17 11:07:59.108 [XNIO-1 task-4] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1117 - -------通过数据库读取用户拥有的角色Rules------username： admin,Roles size: 2
+2025-07-17 11:09:36.698 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:09:36.701 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:09:36.715 [XNIO-1 task-2] WARN  org.jeecg.modules.drag.service.a.f:1200 - 积木字典和用户字典存在冲突，以用户自定义的字典优先dictCode：sex
+2025-07-17 11:10:32.823 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.b.a:104 -  screenIndex 登录令牌token： eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUyODUwMzk3fQ.-z77SN2l7XoT9pdy129jndsWoJU592OOdAKZR3uk6Ts
+2025-07-17 11:10:33.168 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.b.m:316 - 查询仪表盘信息，仪表盘名字：北京税务在线监控，ID:1011871598899679232
+2025-07-17 11:10:33.717 [XNIO-1 task-4] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1117 - -------通过数据库读取用户拥有的角色Rules------username： admin,Roles size: 2
+2025-07-17 11:11:29.278 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:11:29.279 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:11:29.292 [XNIO-1 task-2] WARN  org.jeecg.modules.drag.service.a.f:1200 - 积木字典和用户字典存在冲突，以用户自定义的字典优先dictCode：sex
+2025-07-17 11:11:33.845 [XNIO-1 task-4] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class
+2025-07-17 11:11:33.850 [XNIO-1 task-4] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class
+2025-07-17 11:11:33.882 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:11:33.885 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:11:33.885 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:11:33.888 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:11:33.897 [XNIO-1 task-1] WARN  org.jeecg.modules.drag.service.a.f:1200 - 积木字典和用户字典存在冲突，以用户自定义的字典优先dictCode：sex
+2025-07-17 11:11:33.899 [XNIO-1 task-2] WARN  org.jeecg.modules.drag.service.a.f:1200 - 积木字典和用户字典存在冲突，以用户自定义的字典优先dictCode：sex
+2025-07-17 11:11:53.947 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.j:151 - 修改仪表盘配置，onlDragPage id:1105647552377425920, updateCount:null
+2025-07-17 11:11:53.960 [XNIO-1 task-2] INFO  o.j.c.modules.redis.writer.JeecgRedisCacheWriter:117 - redis remove key:drag:cache:page::1105647552377425920
+2025-07-17 11:15:58.098 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class
+2025-07-17 11:15:58.103 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class
+2025-07-17 11:16:16.553 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class
+2025-07-17 11:16:16.556 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class
+2025-07-17 11:17:26.037 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:17:26.037 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:17:26.042 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:17:26.043 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:17:26.055 [XNIO-1 task-3] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class
+2025-07-17 11:17:26.058 [XNIO-1 task-3] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class
+2025-07-17 11:17:26.082 [XNIO-1 task-2] WARN  org.jeecg.modules.drag.service.a.f:1200 - 积木字典和用户字典存在冲突，以用户自定义的字典优先dictCode：sex
+2025-07-17 11:17:26.083 [XNIO-1 task-6] WARN  org.jeecg.modules.drag.service.a.f:1200 - 积木字典和用户字典存在冲突，以用户自定义的字典优先dictCode：sex
+2025-07-17 11:18:37.014 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:18:37.017 [XNIO-1 task-3] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class
+2025-07-17 11:18:37.018 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:18:37.018 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:18:37.020 [XNIO-1 task-3] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class
+2025-07-17 11:18:37.022 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:18:37.044 [XNIO-1 task-6] WARN  org.jeecg.modules.drag.service.a.f:1200 - 积木字典和用户字典存在冲突，以用户自定义的字典优先dictCode：sex
+2025-07-17 11:18:37.046 [XNIO-1 task-2] WARN  org.jeecg.modules.drag.service.a.f:1200 - 积木字典和用户字典存在冲突，以用户自定义的字典优先dictCode：sex
+2025-07-17 11:18:45.068 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:18:45.072 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:18:45.072 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:18:45.072 [XNIO-1 task-4] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class
+2025-07-17 11:18:45.077 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:18:45.077 [XNIO-1 task-4] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class
+2025-07-17 11:18:45.097 [XNIO-1 task-2] WARN  org.jeecg.modules.drag.service.a.f:1200 - 积木字典和用户字典存在冲突，以用户自定义的字典优先dictCode：sex
+2025-07-17 11:18:45.100 [XNIO-1 task-6] WARN  org.jeecg.modules.drag.service.a.f:1200 - 积木字典和用户字典存在冲突，以用户自定义的字典优先dictCode：sex
+2025-07-17 11:18:49.783 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:18:49.785 [XNIO-1 task-4] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:18:49.786 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class
+2025-07-17 11:18:49.787 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:18:49.787 [XNIO-1 task-4] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:18:49.789 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class
+2025-07-17 11:18:49.800 [XNIO-1 task-2] WARN  org.jeecg.modules.drag.service.a.f:1200 - 积木字典和用户字典存在冲突，以用户自定义的字典优先dictCode：sex
+2025-07-17 11:18:49.803 [XNIO-1 task-4] WARN  org.jeecg.modules.drag.service.a.f:1200 - 积木字典和用户字典存在冲突，以用户自定义的字典优先dictCode：sex
+2025-07-17 11:18:56.709 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:18:56.711 [XNIO-1 task-4] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:18:56.711 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class
+2025-07-17 11:18:56.713 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:18:56.716 [XNIO-1 task-4] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:18:56.716 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class
+2025-07-17 11:18:56.737 [XNIO-1 task-6] WARN  org.jeecg.modules.drag.service.a.f:1200 - 积木字典和用户字典存在冲突，以用户自定义的字典优先dictCode：sex
+2025-07-17 11:18:56.738 [XNIO-1 task-4] WARN  org.jeecg.modules.drag.service.a.f:1200 - 积木字典和用户字典存在冲突，以用户自定义的字典优先dictCode：sex
+2025-07-17 11:19:11.334 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class
+2025-07-17 11:19:11.337 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:19:11.338 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class
+2025-07-17 11:19:11.342 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:19:11.343 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:19:11.347 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:19:11.379 [XNIO-1 task-6] WARN  org.jeecg.modules.drag.service.a.f:1200 - 积木字典和用户字典存在冲突，以用户自定义的字典优先dictCode：sex
+2025-07-17 11:19:11.380 [XNIO-1 task-2] WARN  org.jeecg.modules.drag.service.a.f:1200 - 积木字典和用户字典存在冲突，以用户自定义的字典优先dictCode：sex
+2025-07-17 11:19:48.448 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:19:48.448 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:19:48.448 [XNIO-1 task-4] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class
+2025-07-17 11:19:48.454 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:19:48.454 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:19:48.455 [XNIO-1 task-4] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class
+2025-07-17 11:19:48.475 [XNIO-1 task-2] WARN  org.jeecg.modules.drag.service.a.f:1200 - 积木字典和用户字典存在冲突，以用户自定义的字典优先dictCode：sex
+2025-07-17 11:19:48.477 [XNIO-1 task-6] WARN  org.jeecg.modules.drag.service.a.f:1200 - 积木字典和用户字典存在冲突，以用户自定义的字典优先dictCode：sex
+2025-07-17 11:20:25.546 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class
+2025-07-17 11:20:25.546 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:20:25.550 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:20:25.550 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class
+2025-07-17 11:20:25.558 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:20:25.561 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:20:25.572 [XNIO-1 task-6] WARN  org.jeecg.modules.drag.service.a.f:1200 - 积木字典和用户字典存在冲突，以用户自定义的字典优先dictCode：sex
+2025-07-17 11:20:25.574 [XNIO-1 task-2] WARN  org.jeecg.modules.drag.service.a.f:1200 - 积木字典和用户字典存在冲突，以用户自定义的字典优先dictCode：sex
+2025-07-17 11:21:25.815 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class
+2025-07-17 11:21:25.818 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class
+2025-07-17 11:23:12.635 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class
+2025-07-17 11:23:12.648 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class
+2025-07-17 11:24:35.358 [XNIO-1 task-4] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:24:35.358 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:24:35.358 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class
+2025-07-17 11:24:35.364 [XNIO-1 task-4] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:24:35.364 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:24:35.364 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class
+2025-07-17 11:24:35.385 [XNIO-1 task-2] WARN  org.jeecg.modules.drag.service.a.f:1200 - 积木字典和用户字典存在冲突，以用户自定义的字典优先dictCode：sex
+2025-07-17 11:24:35.385 [XNIO-1 task-4] WARN  org.jeecg.modules.drag.service.a.f:1200 - 积木字典和用户字典存在冲突，以用户自定义的字典优先dictCode：sex
+2025-07-17 11:25:22.097 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class
+2025-07-17 11:25:22.097 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:25:22.097 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:25:22.105 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class
+2025-07-17 11:25:22.105 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:25:22.105 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:25:22.127 [XNIO-1 task-2] WARN  org.jeecg.modules.drag.service.a.f:1200 - 积木字典和用户字典存在冲突，以用户自定义的字典优先dictCode：sex
+2025-07-17 11:25:22.130 [XNIO-1 task-1] WARN  org.jeecg.modules.drag.service.a.f:1200 - 积木字典和用户字典存在冲突，以用户自定义的字典优先dictCode：sex
+2025-07-17 11:25:38.769 [XNIO-1 task-4] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:25:38.769 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class
+2025-07-17 11:25:38.769 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:25:38.773 [XNIO-1 task-4] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:25:38.773 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class
+2025-07-17 11:25:38.773 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:25:38.795 [XNIO-1 task-2] WARN  org.jeecg.modules.drag.service.a.f:1200 - 积木字典和用户字典存在冲突，以用户自定义的字典优先dictCode：sex
+2025-07-17 11:25:38.795 [XNIO-1 task-4] WARN  org.jeecg.modules.drag.service.a.f:1200 - 积木字典和用户字典存在冲突，以用户自定义的字典优先dictCode：sex
+2025-07-17 11:25:51.483 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:25:51.487 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:25:51.488 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class
+2025-07-17 11:25:51.492 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class
+2025-07-17 11:25:51.494 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:25:51.497 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:25:51.509 [XNIO-1 task-1] WARN  org.jeecg.modules.drag.service.a.f:1200 - 积木字典和用户字典存在冲突，以用户自定义的字典优先dictCode：sex
+2025-07-17 11:25:51.508 [XNIO-1 task-2] WARN  org.jeecg.modules.drag.service.a.f:1200 - 积木字典和用户字典存在冲突，以用户自定义的字典优先dictCode：sex
+2025-07-17 11:26:00.666 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class
+2025-07-17 11:26:00.669 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class
+2025-07-17 11:26:08.991 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class
+2025-07-17 11:26:08.993 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class
+2025-07-17 11:27:02.985 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class
+2025-07-17 11:27:02.988 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class
+2025-07-17 11:27:04.862 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class
+2025-07-17 11:27:04.865 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class
+2025-07-17 11:27:04.865 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:27:04.865 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:27:04.871 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:27:04.873 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:27:04.894 [XNIO-1 task-2] WARN  org.jeecg.modules.drag.service.a.f:1200 - 积木字典和用户字典存在冲突，以用户自定义的字典优先dictCode：sex
+2025-07-17 11:27:04.896 [XNIO-1 task-6] WARN  org.jeecg.modules.drag.service.a.f:1200 - 积木字典和用户字典存在冲突，以用户自定义的字典优先dictCode：sex
+2025-07-17 11:27:16.211 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.service.a.j:151 - 修改仪表盘配置，onlDragPage id:1105647552377425920, updateCount:null
+2025-07-17 11:27:16.244 [XNIO-1 task-6] INFO  o.j.c.modules.redis.writer.JeecgRedisCacheWriter:117 - redis remove key:drag:cache:page::1105647552377425920
+2025-07-17 11:27:55.511 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.b.m:73 - ---------自定义页面列表-------req.getParameter.lowAPPId:
+2025-07-17 11:27:55.511 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.b.m:74 - ---------自定义页面列表-------onlDragPage.getLowAppId:null
+2025-07-17 11:27:55.512 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.b.m:76 - 进入设计器列表，Saas模式:  ,登录Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUyODUwMzk3fQ.-z77SN2l7XoT9pdy129jndsWoJU592OOdAKZR3uk6Ts
+2025-07-17 11:28:16.019 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.b.m:73 - ---------自定义页面列表-------req.getParameter.lowAPPId:
+2025-07-17 11:28:16.019 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.b.m:74 - ---------自定义页面列表-------onlDragPage.getLowAppId:null
+2025-07-17 11:28:16.020 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.b.m:76 - 进入设计器列表，Saas模式:  ,登录Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUyODUwMzk3fQ.-z77SN2l7XoT9pdy129jndsWoJU592OOdAKZR3uk6Ts
+2025-07-17 11:28:19.284 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.b.m:73 - ---------自定义页面列表-------req.getParameter.lowAPPId:
+2025-07-17 11:28:19.285 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.b.m:74 - ---------自定义页面列表-------onlDragPage.getLowAppId:null
+2025-07-17 11:28:19.285 [XNIO-1 task-6] INFO  org.jeecg.modules.drag.b.m:76 - 进入设计器列表，Saas模式:  ,登录Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUyODUwMzk3fQ.-z77SN2l7XoT9pdy129jndsWoJU592OOdAKZR3uk6Ts
+2025-07-17 11:28:23.726 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.b.m:73 - ---------自定义页面列表-------req.getParameter.lowAPPId:
+2025-07-17 11:28:23.728 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.b.m:74 - ---------自定义页面列表-------onlDragPage.getLowAppId:null
+2025-07-17 11:28:23.728 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.b.m:76 - 进入设计器列表，Saas模式:  ,登录Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUyODUwMzk3fQ.-z77SN2l7XoT9pdy129jndsWoJU592OOdAKZR3uk6Ts
+2025-07-17 11:28:28.247 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.b.a:104 -  screenIndex 登录令牌token： eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNzUyODUwMzk3fQ.-z77SN2l7XoT9pdy129jndsWoJU592OOdAKZR3uk6Ts
+2025-07-17 11:28:28.528 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.b.m:316 - 查询仪表盘信息，仪表盘名字：测试数据大屏1，ID:1105647552377425920
+2025-07-17 11:28:28.971 [XNIO-1 task-2] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1117 - -------通过数据库读取用户拥有的角色Rules------username： admin,Roles size: 2
+2025-07-17 11:28:29.276 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class
+2025-07-17 11:28:29.280 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class
+2025-07-17 11:28:29.330 [XNIO-1 task-4] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:28:29.330 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:28:29.335 [XNIO-1 task-2] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:28:29.336 [XNIO-1 task-4] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 11:28:29.362 [XNIO-1 task-4] WARN  org.jeecg.modules.drag.service.a.f:1200 - 积木字典和用户字典存在冲突，以用户自定义的字典优先dictCode：sex
+2025-07-17 11:28:29.363 [XNIO-1 task-2] WARN  org.jeecg.modules.drag.service.a.f:1200 - 积木字典和用户字典存在冲突，以用户自定义的字典优先dictCode：sex
+2025-07-17 11:30:05.024 [XNIO-1 task-2] INFO  o.j.m.system.controller.SysPermissionController:114 - ======获取全部菜单数据=====耗时:56毫秒
+2025-07-17 11:30:22.714 [XNIO-1 task-2] INFO  o.j.m.system.controller.SysPermissionController:114 - ======获取全部菜单数据=====耗时:36毫秒
+2025-07-17 12:46:24.078 [XNIO-1 task-4] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/3f0b5b854a194ca698f2685cbb33296d
+2025-07-17 12:46:24.105 [XNIO-1 task-4] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/3f0b5b854a194ca698f2685cbb33296d]
+2025-07-17 12:46:24.164 [XNIO-1 task-6] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/3f0b5b854a194ca698f2685cbb33296d
+2025-07-17 12:46:24.165 [XNIO-1 task-6] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/3f0b5b854a194ca698f2685cbb33296d]
+2025-07-17 12:46:24.467 [XNIO-1 task-5] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/3f0b5b854a194ca698f2685cbb33296d
+2025-07-17 12:46:24.468 [XNIO-1 task-5] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/3f0b5b854a194ca698f2685cbb33296d]
+2025-07-17 12:46:40.265 [XNIO-1 task-1] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/43122ec3a43b43cca0f464c492c332a3
+2025-07-17 12:46:40.266 [XNIO-1 task-1] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/43122ec3a43b43cca0f464c492c332a3]
+2025-07-17 12:46:40.266 [XNIO-1 task-4] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/babfaea2ec814a90ab1a89805b2946ba
+2025-07-17 12:46:40.266 [XNIO-1 task-4] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/babfaea2ec814a90ab1a89805b2946ba]
+2025-07-17 12:46:40.272 [XNIO-1 task-2] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/7f7249e912324d299c8de6964f29804f
+2025-07-17 12:46:40.273 [XNIO-1 task-2] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/7f7249e912324d299c8de6964f29804f]
+2025-07-17 12:46:40.901 [XNIO-1 task-2] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/babfaea2ec814a90ab1a89805b2946ba
+2025-07-17 12:46:40.901 [XNIO-1 task-4] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/babfaea2ec814a90ab1a89805b2946ba
+2025-07-17 12:46:40.902 [XNIO-1 task-2] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/babfaea2ec814a90ab1a89805b2946ba]
+2025-07-17 12:46:40.902 [XNIO-1 task-4] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/babfaea2ec814a90ab1a89805b2946ba]
+2025-07-17 12:46:40.936 [XNIO-1 task-1] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/43122ec3a43b43cca0f464c492c332a3
+2025-07-17 12:46:40.936 [XNIO-1 task-1] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/43122ec3a43b43cca0f464c492c332a3]
+2025-07-17 12:46:41.065 [XNIO-1 task-1] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/43122ec3a43b43cca0f464c492c332a3
+2025-07-17 12:46:41.066 [XNIO-1 task-1] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/43122ec3a43b43cca0f464c492c332a3]
+2025-07-17 12:46:41.072 [XNIO-1 task-3] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/7f7249e912324d299c8de6964f29804f
+2025-07-17 12:46:41.072 [XNIO-1 task-5] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/7f7249e912324d299c8de6964f29804f
+2025-07-17 12:46:41.073 [XNIO-1 task-5] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/7f7249e912324d299c8de6964f29804f]
+2025-07-17 12:46:41.073 [XNIO-1 task-3] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/7f7249e912324d299c8de6964f29804f]
+2025-07-17 12:47:00.166 [XNIO-1 task-5] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/3f0b5b854a194ca698f2685cbb33296d
+2025-07-17 12:47:00.168 [XNIO-1 task-5] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/3f0b5b854a194ca698f2685cbb33296d]
+2025-07-17 12:47:00.356 [XNIO-1 task-1] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/7f7249e912324d299c8de6964f29804f
+2025-07-17 12:47:00.356 [XNIO-1 task-5] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/43122ec3a43b43cca0f464c492c332a3
+2025-07-17 12:47:00.357 [XNIO-1 task-1] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/7f7249e912324d299c8de6964f29804f]
+2025-07-17 12:47:00.357 [XNIO-1 task-5] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/43122ec3a43b43cca0f464c492c332a3]
+2025-07-17 12:47:00.362 [XNIO-1 task-3] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/babfaea2ec814a90ab1a89805b2946ba
+2025-07-17 12:47:00.363 [XNIO-1 task-3] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/babfaea2ec814a90ab1a89805b2946ba]
+2025-07-17 12:47:03.883 [XNIO-1 task-5] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/babfaea2ec814a90ab1a89805b2946ba
+2025-07-17 12:47:03.883 [XNIO-1 task-3] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/43122ec3a43b43cca0f464c492c332a3
+2025-07-17 12:47:03.883 [XNIO-1 task-1] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/7f7249e912324d299c8de6964f29804f
+2025-07-17 12:47:03.885 [XNIO-1 task-1] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/7f7249e912324d299c8de6964f29804f]
+2025-07-17 12:47:03.885 [XNIO-1 task-3] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/43122ec3a43b43cca0f464c492c332a3]
+2025-07-17 12:47:03.885 [XNIO-1 task-5] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/babfaea2ec814a90ab1a89805b2946ba]
+2025-07-17 12:47:22.632 [XNIO-1 task-5] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/3f0b5b854a194ca698f2685cbb33296d
+2025-07-17 12:47:22.634 [XNIO-1 task-5] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/3f0b5b854a194ca698f2685cbb33296d]
+2025-07-17 12:47:22.813 [XNIO-1 task-5] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/43122ec3a43b43cca0f464c492c332a3
+2025-07-17 12:47:22.813 [XNIO-1 task-5] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/43122ec3a43b43cca0f464c492c332a3]
+2025-07-17 12:47:22.815 [XNIO-1 task-3] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/babfaea2ec814a90ab1a89805b2946ba
+2025-07-17 12:47:22.815 [XNIO-1 task-1] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/7f7249e912324d299c8de6964f29804f
+2025-07-17 12:47:22.816 [XNIO-1 task-1] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/7f7249e912324d299c8de6964f29804f]
+2025-07-17 12:47:22.816 [XNIO-1 task-3] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/babfaea2ec814a90ab1a89805b2946ba]
+2025-07-17 12:47:25.965 [XNIO-1 task-5] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/babfaea2ec814a90ab1a89805b2946ba
+2025-07-17 12:47:25.965 [XNIO-1 task-1] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/7f7249e912324d299c8de6964f29804f
+2025-07-17 12:47:25.965 [XNIO-1 task-3] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/43122ec3a43b43cca0f464c492c332a3
+2025-07-17 12:47:25.966 [XNIO-1 task-1] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/7f7249e912324d299c8de6964f29804f]
+2025-07-17 12:47:25.966 [XNIO-1 task-3] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/43122ec3a43b43cca0f464c492c332a3]
+2025-07-17 12:47:25.966 [XNIO-1 task-5] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/babfaea2ec814a90ab1a89805b2946ba]
+2025-07-17 12:47:32.737 [XNIO-1 task-1] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/3f0b5b854a194ca698f2685cbb33296d
+2025-07-17 12:47:32.737 [XNIO-1 task-1] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/3f0b5b854a194ca698f2685cbb33296d]
+2025-07-17 12:47:32.885 [XNIO-1 task-3] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/7f7249e912324d299c8de6964f29804f
+2025-07-17 12:47:32.885 [XNIO-1 task-5] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/43122ec3a43b43cca0f464c492c332a3
+2025-07-17 12:47:32.885 [XNIO-1 task-1] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/babfaea2ec814a90ab1a89805b2946ba
+2025-07-17 12:47:32.885 [XNIO-1 task-3] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/7f7249e912324d299c8de6964f29804f]
+2025-07-17 12:47:32.885 [XNIO-1 task-5] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/43122ec3a43b43cca0f464c492c332a3]
+2025-07-17 12:47:32.885 [XNIO-1 task-1] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/babfaea2ec814a90ab1a89805b2946ba]
+2025-07-17 12:48:20.193 [XNIO-1 task-3] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/3f0b5b854a194ca698f2685cbb33296d
+2025-07-17 12:48:20.194 [XNIO-1 task-3] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/3f0b5b854a194ca698f2685cbb33296d]
+2025-07-17 12:48:20.374 [XNIO-1 task-1] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/7f7249e912324d299c8de6964f29804f
+2025-07-17 12:48:20.374 [XNIO-1 task-5] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/babfaea2ec814a90ab1a89805b2946ba
+2025-07-17 12:48:20.374 [XNIO-1 task-3] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:1766 -  path = /online/cgform/api/getData/43122ec3a43b43cca0f464c492c332a3
+2025-07-17 12:48:20.375 [XNIO-1 task-5] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/babfaea2ec814a90ab1a89805b2946ba]
+2025-07-17 12:48:20.375 [XNIO-1 task-3] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/43122ec3a43b43cca0f464c492c332a3]
+2025-07-17 12:48:20.375 [XNIO-1 task-1] INFO  o.jeecg.modules.system.service.impl.SysBaseApiImpl:199 - 获取的菜单地址= [/online/cgform/api/getData/7f7249e912324d299c8de6964f29804f]
+2025-07-17 12:48:53.948 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class
+2025-07-17 12:48:53.953 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class
+2025-07-17 13:07:40.569 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 13:07:40.655 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 13:07:40.933 [XNIO-1 task-1] WARN  org.jeecg.modules.drag.service.a.f:1200 - 积木字典和用户字典存在冲突，以用户自定义的字典优先dictCode：sex
+2025-07-17 13:08:19.839 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.service.a.f:1333 - 替换系统变量后的执行sql:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 13:08:19.844 [XNIO-1 task-1] INFO  org.jeecg.modules.drag.service.a.f:578 - 最终执行的DBSQL:select * from edu_class_sub where main_id=1945323153084104705
+2025-07-17 13:08:19.895 [XNIO-1 task-1] WARN  org.jeecg.modules.drag.service.a.f:1200 - 积木字典和用户字典存在冲突，以用户自定义的字典优先dictCode：sex
+2025-07-17 13:16:38.996 [SpringApplicationShutdownHook] INFO  org.quartz.core.QuartzScheduler:585 - Scheduler MyScheduler_$_AnKou1752717582768 paused.
+2025-07-17 13:16:39.176 [SpringApplicationShutdownHook] INFO  io.undertow:259 - stopping server: Undertow - 2.2.28.Final
+2025-07-17 13:16:39.536 [SpringApplicationShutdownHook] INFO  io.undertow.servlet:389 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2025-07-17 13:16:39.609 [XNIO-1 I/O-9] ERROR org.xnio.listener:94 - XNIO001007: A channel event listener threw an exception
+java.util.concurrent.RejectedExecutionException: XNIO007007: Thread is terminating
+	at org.xnio.nio.WorkerThread.execute(WorkerThread.java:620)
+	at io.undertow.websockets.jsr.UndertowSession.close0(UndertowSession.java:362)
+	at io.undertow.websockets.jsr.UndertowSession.closeInternal(UndertowSession.java:242)
+	at io.undertow.websockets.jsr.UndertowSession$3$1.run(UndertowSession.java:402)
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:411)
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:389)
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92)
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:1085)
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:1004)
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92)
+	at org.xnio.conduits.WriteReadyHandler$ChannelListenerHandler.terminated(WriteReadyHandler.java:70)
+	at org.xnio.nio.NioSocketConduit.writeTerminated(NioSocketConduit.java:204)
+	at org.xnio.nio.NioSocketConduit.terminateWrites(NioSocketConduit.java:193)
+	at org.xnio.nio.NioSocketConduit.truncateWrites(NioSocketConduit.java:198)
+	at io.undertow.conduits.IdleTimeoutConduit.truncateWrites(IdleTimeoutConduit.java:387)
+	at org.xnio.conduits.ConduitStreamSinkChannel.close(ConduitStreamSinkChannel.java:186)
+	at org.xnio.IoUtils.safeClose(IoUtils.java:152)
+	at org.xnio.conduits.WriteReadyHandler$ChannelListenerHandler.forceTermination(WriteReadyHandler.java:57)
+	at org.xnio.nio.NioSocketConduit.forceTermination(NioSocketConduit.java:108)
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:507)
