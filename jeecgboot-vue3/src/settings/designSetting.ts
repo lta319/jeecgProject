@@ -4,7 +4,7 @@ export const prefixCls = 'jeecg';
 
 export const darkMode = ThemeEnum.LIGHT;
 
-// app theme preset color
+// app theme preset color //  app主题色预设
 export const APP_PRESET_COLOR_LIST: string[] = [
   '#0960bd',
   '#1890ff',
@@ -19,7 +19,7 @@ export const APP_PRESET_COLOR_LIST: string[] = [
   '#ff9800',
 ];
 
-// header preset color
+// header preset color// 顶部背景色预设
 export const HEADER_PRESET_BG_COLOR_LIST: string[] = [
   '#ffffff',
   '#151515',
@@ -34,20 +34,20 @@ export const HEADER_PRESET_BG_COLOR_LIST: string[] = [
   '#383f45',
 ];
 
-// sider preset color
+// sider preset color // 左侧菜单背景色预设
 export const SIDE_BAR_BG_COLOR_LIST: string[] = [
   '#001529',
-  // '#212121',
+  '#212121',
   '#009688',
   '#273352',
   '#ffffff',
   '#191b24',
-  // '#191a23',
+  '#191a23',
   '#037bd5',
   '#304156',
   '#001628',
   '#28333E',
-  // '#344058',
+  '#344058',
   '#e74c3c',
   '#383f45',
 ];

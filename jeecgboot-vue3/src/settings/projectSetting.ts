@@ -95,12 +95,12 @@ const setting: ProjectConfig = {
   // 菜单配置
   menuSetting: {
     // 背景色
-    bgColor: SIDE_BAR_BG_COLOR_LIST[0],
+    bgColor: SIDE_BAR_BG_COLOR_LIST[4],
     // 是否固定住左侧菜单
     fixed: true,
     // 菜单折叠
     collapsed: false,
-    // 折叠菜单时候是否显示菜单名
+    // 折叠菜单时候是否显示菜单
     collapsedShowTitle: false,
     // 是否可拖拽
     // Only limited to the opening of the left menu, the mouse has a drag bar on the right side of the menu
@@ -110,7 +110,7 @@ const setting: ProjectConfig = {
     // Whether to show dom
     hidden: false,
     // 菜单宽度
-    menuWidth: 210,
+    menuWidth: 180,
     // 菜单模式
     mode: MenuModeEnum.INLINE,
     // 菜单类型
@@ -173,7 +173,7 @@ const setting: ProjectConfig = {
   },
 
   // 是否开启KeepAlive缓存  开发时候最好关闭,不然每次都需要清除缓存
-  openKeepAlive: true,
+  openKeepAlive: false,
 
   // 自动锁屏时间，为0不锁屏。 单位分钟 默认1个小时
   lockTime: 0,
