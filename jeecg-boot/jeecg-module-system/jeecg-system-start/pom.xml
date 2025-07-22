@@ -30,6 +30,12 @@
             <groupId>org.flywaydb</groupId>
             <artifactId>flyway-core</artifactId>
         </dependency>
+        <!--ERP模块-->
+        <dependency>
+            <groupId>org.jeecgframework.boot</groupId>
+            <artifactId>jeecg-module-erp</artifactId>
+            <version>${jeecgboot.version}</version>
+        </dependency>
     </dependencies>
 
     <build>
